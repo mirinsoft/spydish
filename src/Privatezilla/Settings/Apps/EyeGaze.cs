@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Apps
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Apps
 
         public override string ID()
         {
-            return "Disable app access to eye tracking";
+            return Locale.settingsAppsEyeGaze;
         }
 
         public override string Info()
         {
-            return "Disable app access to eye-gaze-based interaction";
+            return Locale.settingsAppsEyeGazeInfo;
         }
 
         public override bool CheckSetting()

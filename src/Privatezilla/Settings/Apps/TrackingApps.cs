@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Apps
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Apps
 
         public override string ID()
         {
-            return "Disable tracking of app starts";
+            return Locale.settingsAppsTrackingApps;
         }
 
         public override string Info()
         {
-            return "This allows you to quickly have access to your list of Most used apps both in the Start menu and when you search your device.";
+            return Locale.settingsAppsTrackingAppsInfo;
         }
 
         public override bool CheckSetting()

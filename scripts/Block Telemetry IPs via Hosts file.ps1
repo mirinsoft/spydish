@@ -1,8 +1,7 @@
-### This script blocks telemetry related domains via the hosts file and related IPs via Windows Firewall. ###
-###- Please note that adding these domains may break certain software like iTunes or Skype. As this issue is location dependent for some domains, they are not commented by default. ###
-### The domains known to cause issues marked accordingly.
-### Please see the related issue: https://github.com/W4RH4WK/Debloat-Windows-10/issues/79 ###
-### Author of this script: https://github.com/W4RH4WK/Debloat-Windows-10
+### This script blocks telemetry related domains via the hosts file and related IPs via Windows Firewall ### 
+###- Please note that adding these domains may break certain software like iTunes or Skype. As this issue is location dependent for some domains, they are not commented by default. The domains known to cause issues marked accordingly. ### 
+### Please see the related issue:
+### https://github.com/W4RH4WK/Debloat-Windows-10/issues/79
 
 Import-Module -DisableNameChecking $PSScriptRoot\..\lib\force-mkdir.psm1
 
@@ -214,6 +213,6 @@ $ips = @(
     "65.55.108.23"
     "64.4.54.254"
 )
-Remove-NetFirewallRule -DisplayName "Block Telemetry IPs" -ErrorAction SilentlyContinue
-New-NetFirewallRule -DisplayName "Block Telemetry IPs" -Direction Outbound `
+Remove-NetFirewallRule -DisplayName "Privatezilla Block Telemetry IPs" -ErrorAction SilentlyContinue
+New-NetFirewallRule -DisplayName "Privatezilla Block Telemetry IPs" -Direction Outbound `
     -Action Block -RemoteAddress ([string[]]$ips)

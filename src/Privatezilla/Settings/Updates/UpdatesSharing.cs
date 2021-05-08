@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Updates
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Updates
 
         public override string ID()
         {
-            return "Disable Windows updates sharing";
+            return Locale.settingsUpdatesUpdateSharing;
         }
 
         public override string Info()
         {
-            return "Windows 10 lets you download updates from several sources to speed up the process of updating the operating system. This will disable sharing your files by others and exposing your IP address to random computers.";
+            return Locale.settingsUpdatesUpdateSharingInfo.Replace("\\n", "\n");
         }
 
         public override bool CheckSetting()

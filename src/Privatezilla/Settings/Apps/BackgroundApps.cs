@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Apps
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Apps
 
         public override string ID()
         {
-            return "Disable apps running in background";
+            return Locale.settingsAppsBackgroundApps;
         }
 
         public override string Info()
         {
-            return "Windows 10 apps have no more permission to run in the background so they can't update their live tiles, fetch new data, and receive notifications.";
+            return Locale.settingsAppsBackgroundAppsInfo;
         }
 
         public override bool CheckSetting()

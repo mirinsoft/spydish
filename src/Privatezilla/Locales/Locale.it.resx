@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BtnDoPS" xml:space="preserve">
+    <value>Applica selezione</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="BtnSettingsAnalyze" xml:space="preserve">
+    <value>Analizza</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="BtnSettingsDo" xml:space="preserve">
+    <value>Applica selezione</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="BtnSettingsUndo" xml:space="preserve">
+    <value>Ripristina selezionati</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="CheckRelease" xml:space="preserve">
+    <value>Cerca nuovi aggiornamenti</value>
+    <comment>Main menu</comment>
+  </data>
+  <data name="ChkCodePS" xml:space="preserve">
+    <value>Visualizza codice</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="columnSetting" xml:space="preserve">
+    <value>Impostazioni</value>
+    <comment>TreeView</comment>
+  </data>
+  <data name="columnState" xml:space="preserve">
+    <value>Stato</value>
+    <comment>TreeView</comment>
+  </data>
+  <data name="CommunityPkg" xml:space="preserve">
+    <value>Ottieni pacchetto community</value>
+    <comment>Main menu</comment>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Guida Breve</value>
+    <comment>Main menu</comment>
+  </data>
+  <data name="helpApp" xml:space="preserve">
+    <value>Informazioni su un'impostazione: \r\nSposta il cursore su un'impostazione per visualizzare una breve spiegazione
+                                           \r\nAnalizza (Button): Determina quali impostazioni sono abilitate e configurate sul tuo sistema o meno. Non sono ancora state apportate modifiche al sistema! 
+                                           \r\nApplica selezionato (Button): Questo attiverà tutte le impostazioni selezionate.
+                                           \r\nRipristina la selezione (Button): Questo ripristinerà le impostazioni predefinite di Windows 10.
+                                           \r\nConfigurato (Stato): Indica che la tua privacy è protetta.
+                                           \r\nNon Configurato (Stato): Indica che le impostazioni di Windows 10 sono in funzione.</value>
+    <comment>Main menu</comment>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Informazioni</value>
+    <comment>Main menu</comment>
+  </data>
+  <data name="infoApp" xml:space="preserve">
+    <value>L'app open source per le impostazioni sulla privacy di Windows 10.
+									Non è in alcun modo correlata a Microsoft ed è un progetto completamente indipendente.
+
+Tutte le info e crediti su questo progetto le trovi su
+\tgithub.com/builtbybel/privatezilla
+
+Puoi anche seguirmi su
+\ttwitter.com/builtbybel
+
+(C#) 2021, Builtbybel</value>
+    <comment>Informazioni sull'app
+Traduzione di: garf02</comment>
+  </data>
+  <data name="LblPS" xml:space="preserve">
+    <value>Script</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="LblPSHeader" xml:space="preserve">
+    <value>Applica Script PowerShell</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="LblSettings" xml:space="preserve">
+    <value>Impostazioni</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="LblStatus" xml:space="preserve">
+    <value>Press Analyze to check for configured settings.</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="msgAppCompatibility" xml:space="preserve">
+    <value>Stai eseguendo Privatezilla su un sistema più vecchio di Windows 10. Privatezilla è limitato solo a Windows 10.</value>
+  </data>
+  <data name="msgPSSave" xml:space="preserve">
+    <value>Si prega di passare alla visualizzazione del codice.</value>
+    <comment>Scripts (optional)</comment>
+  </data>
+  <data name="msgPSSelect" xml:space="preserve">
+    <value>Seleziona uno script.</value>
+    <comment>Scripts (optional)</comment>
+  </data>
+  <data name="msgPSSuccess" xml:space="preserve">
+    <value>è stato eseguito con successo</value>
+    <comment>Scripts (optional)</comment>
+  </data>
+  <data name="PSBack" xml:space="preserve">
+    <value>Indietro</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="PSImport" xml:space="preserve">
+    <value>Importa script</value>
+    <comment>Scripting menu</comment>
+  </data>
+  <data name="PSInfo" xml:space="preserve">
+    <value>Che cosa fa questo script?\r\n</value>
+    <comment>Scripting menu</comment>
+  </data>
+  <data name="PSMarketplace" xml:space="preserve">
+    <value>Visita Il Marketplace</value>
+    <comment>Scripting menu</comment>
+  </data>
+  <data name="PSSaveAs" xml:space="preserve">
+    <value>Salva lo script corrente come nuovo script preimpostato</value>
+    <comment>Scripting menu</comment>
+  </data>
+  <data name="releaseUnofficial" xml:space="preserve">
+    <value>Stai usando una versione non ufficiale di Privatezilla.</value>
+  </data>
+  <data name="releaseUpdateAvailable" xml:space="preserve">
+    <value>C'è una nuova versione disponibile #</value>
+  </data>
+  <data name="releaseUpdateAvailableURL" xml:space="preserve">
+    <value>\r\nVuoi aprire la pagina @github/releases?</value>
+  </data>
+  <data name="releaseUpdateYourVersion" xml:space="preserve">
+    <value>\r\nStai usando la versione #</value>
+  </data>
+  <data name="releaseUpToDate" xml:space="preserve">
+    <value>Al momento non ci sono aggiornamenti disponibili.</value>
+  </data>
+  <data name="rootSettingsApps" xml:space="preserve">
+    <value>Permessi app</value>
+  </data>
+  <data name="rootSettingsBloatware" xml:space="preserve">
+    <value>Bloatware</value>
+  </data>
+  <data name="rootSettingsBloatwareInfo" xml:space="preserve">
+    <value>Debloat Windows 10</value>
+  </data>
+  <data name="rootSettingsCortana" xml:space="preserve">
+    <value>Cortana</value>
+  </data>
+  <data name="rootSettingsDefender" xml:space="preserve">
+    <value>Windows Defender</value>
+  </data>
+  <data name="rootSettingsEdge" xml:space="preserve">
+    <value>Microsoft Edge</value>
+  </data>
+  <data name="rootSettingsGaming" xml:space="preserve">
+    <value>Giochi</value>
+  </data>
+  <data name="rootSettingsPrivacy" xml:space="preserve">
+    <value>Privacy</value>
+  </data>
+  <data name="rootSettingsSecurity" xml:space="preserve">
+    <value>Sicurezza</value>
+  </data>
+  <data name="rootSettingsUpdates" xml:space="preserve">
+    <value>Aggiornamenti</value>
+  </data>
+  <data name="settingsAppsAccountInfo" xml:space="preserve">
+    <value>Disabilita l'accesso delle app alle informazioni dell'account</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsAppNotifications" xml:space="preserve">
+    <value>Disattiva le notifiche delle app</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsAppNotificationsInfo" xml:space="preserve">
+    <value>Il Centro Notifiche in Windows 10 raccoglie e mostra notifiche e avvisi da applicazioni Windows tradizionali e notifiche di sistema, accanto a quelle generate da app moderne.\nLe notifiche vengono poi raggruppate nel Centro Notifiche per app e tempo.\nQuesta impostazione disabiliterà tutte le notifiche da app e da altri mittenti nelle impostazioni.</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsBackgroundApps" xml:space="preserve">
+    <value>Disabilita le app in esecuzione in background</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsBackgroundAppsInfo" xml:space="preserve">
+    <value>Le app di Windows 10 non hanno più il permesso di essere avviate in background in modo che non possano aggiornare i loro tile live, recuperare nuovi dati e ricevere notifiche.</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsCalendar" xml:space="preserve">
+    <value>Disabilita l'accesso alle app al calendario</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsCall" xml:space="preserve">
+    <value>Disabilita l'accesso alle app per le chiamate</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsCallHistory" xml:space="preserve">
+    <value>Disabilita l'accesso alle app alla cronologia chiamate</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsCamera" xml:space="preserve">
+    <value>Disabilita l'accesso delle app alla fotocamera</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsCellularData" xml:space="preserve">
+    <value>Disabilita l'accesso delle app ai dati mobili</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsCellularDataInfo" xml:space="preserve">
+    <value>Alcuni dispositivi Windows 10 dispongono di una scheda SIM e/o eSIM che consente di connettersi a una rete dati cellulare (ad esempio: LTE o Broadband), in modo da poter ottenere online in più luoghi utilizzando un segnale cellulare.\nSe non vuoi che nessuna app possa utilizzare i dati cellulari, puoi disabilitarli con questa impostazione.</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsContacts" xml:space="preserve">
+    <value>Disabilita l'accesso delle app ai contatti</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsDiagnosticInformation" xml:space="preserve">
+    <value>Disabilita l'accesso delle app alla diagnostica</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsDocuments" xml:space="preserve">
+    <value>Disabilita l'accesso delle app ai documenti</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsEmail" xml:space="preserve">
+    <value>Disabilita l'accesso delle app alle email</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsEyeGaze" xml:space="preserve">
+    <value>Disabilita l'accesso delle app per il monitoraggio degli occhi</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsEyeGazeInfo" xml:space="preserve">
+    <value>Disabilita l'accesso delle app all'interazione con gli occhi</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsFileSystem" xml:space="preserve">
+    <value>Disabilita l'accesso delle app al file system</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsFileSystemInfo" xml:space="preserve">
+    <value>Questa impostazione disabiliterà l'accesso alle app al file system. Alcune applicazioni potrebbero essere limitate nella loro funzione o potrebbero non funzionare affatto.</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsMessaging" xml:space="preserve">
+    <value>Disabilita l'accesso delle app alla messaggistica</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsMicrophone" xml:space="preserve">
+    <value>Disabilita l'accesso delle app al microfono</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsMotion" xml:space="preserve">
+    <value>Disabilita accesso delle app al movimento</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsNotification" xml:space="preserve">
+    <value>Disabilita l'accesso delle app alle notifiche</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsOtherDevices" xml:space="preserve">
+    <value>Disabilita l'accesso delle app ad altri dispositivi</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsPictures" xml:space="preserve">
+    <value>Disabilita l'accesso delle app alle immagini</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsRadios" xml:space="preserve">
+    <value>Disabilita l'accesso delle app alle radio</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsTasks" xml:space="preserve">
+    <value>Disabilita l'accesso delle app alle attività</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsTrackingApps" xml:space="preserve">
+    <value>Disabilita il tracciamento dell'avvio delle app</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsTrackingAppsInfo" xml:space="preserve">
+    <value>Questo ti permette di accedere rapidamente alla tua lista delle applicazioni più utilizzate sia nel menu Start che quando cerchi il tuo dispositivo."</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsVideos" xml:space="preserve">
+    <value>Disattiva l'accesso delle app ai video</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsBloatwareRemoveUWPAll" xml:space="preserve">
+    <value>Rimuovi tutte le app integrate</value>
+    <comment>Settings &gt; Bloatware</comment>
+  </data>
+  <data name="settingsBloatwareRemoveUWPAllInfo" xml:space="preserve">
+    <value>Questo rimuoverà tutte le app integrate tranne Microsoft Store.</value>
+    <comment>Settings &gt; Bloatware</comment>
+  </data>
+  <data name="settingsBloatwareRemoveUWPDefaults" xml:space="preserve">
+    <value>Rimuovi tutte le app integrate tranne quelle predefinite</value>
+    <comment>Settings &gt; Bloatware</comment>
+  </data>
+  <data name="settingsBloatwareRemoveUWPDefaultsInfo" xml:space="preserve">
+    <value>Questo rimuoverà tutte le applicazioni integrate tranne le seguenti:\nMicrosoft Store\nApp Installer\nCalendar\nMail\nCalculator\nCamera\nSkype\nGroove Music\nMaps\nPaint 3D\nIl tuo telefono\nFoto\nNote adesive\nTempo\nXbox</value>
+    <comment>Settings &gt; Bloatware</comment>
+  </data>
+  <data name="settingsCortanaDisableBing" xml:space="preserve">
+    <value>Disabilita Bing nella ricerca di Windows</value>
+    <comment>Settings &gt; Cortana</comment>
+  </data>
+  <data name="settingsCortanaDisableBingInfo" xml:space="preserve">
+    <value>Windows 10, per impostazione predefinita, invia tutto quello che cerchi nel menu Start ai loro server per darti i risultati dalla ricerca Bing.</value>
+    <comment>Settings &gt; Cortana</comment>
+  </data>
+  <data name="settingsCortanaDisableCortana" xml:space="preserve">
+    <value>Disabilita Cortana</value>
+    <comment>Settings &gt; Cortana</comment>
+  </data>
+  <data name="settingsCortanaDisableCortanaInfo" xml:space="preserve">
+    <value>Cortana è l'assistente virtuale di Microsoft che viene integrato in Windows 10.\nQuesta impostazione disabiliterà Cortana in modo permanente e gli impedirà di registrare e memorizzare le tue abitudini di ricerca e la cronologia.</value>
+    <comment>Settings &gt; Cortana</comment>
+  </data>
+  <data name="settingsCortanaUninstallCortana" xml:space="preserve">
+    <value>Disinstalla Cortana</value>
+    <comment>Settings &gt; Cortana</comment>
+  </data>
+  <data name="settingsCortanaUninstallCortanaInfo" xml:space="preserve">
+    <value>Questo disinstallerà la nuova app Cortana su Windows 10, versione 2004.</value>
+    <comment>Settings &gt; Cortana</comment>
+  </data>
+  <data name="settingsDefenderDisableSmartScreenStore" xml:space="preserve">
+    <value>Disabilita SmartScreen per le app Store</value>
+    <comment>Settings &gt; Defender</comment>
+  </data>
+  <data name="settingsDefenderDisableSmartScreenStoreInfo" xml:space="preserve">
+    <value>Windows Defender SmartScreen Filter aiuta a proteggere il tuo dispositivo controllando i contenuti web (URL) e le app Microsoft Store utilizzate.</value>
+    <comment>Settings &gt; Defender</comment>
+  </data>
+  <data name="settingsEdeAutoFillCredit" xml:space="preserve">
+    <value>Disabilita riempimento automatico delle carte di credito</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdeAutoFillCreditInfo" xml:space="preserve">
+    <value>La funzione AutoRiempimento di Microsoft Edge consente agli utenti di completare automaticamente le informazioni della carta di credito nei moduli web utilizzando le informazioni precedentemente memorizzate.</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdgeBackground" xml:space="preserve">
+    <value>Previene l'esecuzione di Edge in background</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdgeBackgroundInfo" xml:space="preserve">
+    <value>Sulla nuova versione Chromium di Microsoft Edge, estensioni e altri servizi possono mantenere il browser in esecuzione in background anche dopo che è stato chiuso.</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdgeBlockEdgeRollout" xml:space="preserve">
+    <value>Blocca Installazione del Nuovo Microsoft Edge</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdgeBlockEdgeRolloutInfo" xml:space="preserve">
+    <value>Questo bloccherà l'installazione forzata dell'aggiornamento di Windows 10 del nuovo browser Web Microsoft Edge basato su Chromium se non è già installato sul dispositivo.</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdgeDisableSync" xml:space="preserve">
+    <value>Disabilita la sincronizzazione dei dati</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdgeDisableSyncInfo" xml:space="preserve">
+    <value>Questa impostazione disabiliterà la sincronizzazione dei dati utilizzando i servizi di sincronizzazione Microsoft.</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsGamingGameBar" xml:space="preserve">
+    <value>Disabilita le funzionalità della barra di gioco</value>
+    <comment>Settings &gt; Gaming</comment>
+  </data>
+  <data name="settingsGamingGameBarInfo" xml:space="preserve">
+    <value>Questa impostazione disabiliterà la registrazione e la trasmissione di giochi di Windows.</value>
+    <comment>Settings &gt; Gaming</comment>
+  </data>
+  <data name="settingsGamingGameBarInfoInfo" xml:space="preserve">
+    <value>Questo spegnerà le esperienze su misura con suggerimenti e consigli pertinenti utilizzando i tuoi dati diagnostici. Molte persone chiamerebbero questa telemetria, o anche spiando.</value>
+    <comment>Settings &gt; Gaming</comment>
+  </data>
+  <data name="settingsPrivacyBlockSuggestedApps" xml:space="preserve">
+    <value>Blocca le app suggerite nel menu Start</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyBlockSuggestedAppsInfo" xml:space="preserve">
+    <value>Questo bloccherà le app suggerite che di tanto in tanto appaiono nel menu Start.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDiagnosticData" xml:space="preserve">
+    <value>Impedisci l'utilizzo di dati diagnostici</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDiagnosticDataInfo" xml:space="preserve">
+    <value>Questo spegnerà le esperienze su misura con suggerimenti e consigli pertinenti utilizzando i tuoi dati diagnostici. Molte persone chiamerebbero questa telemetria, o anche spia.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableAds" xml:space="preserve">
+    <value>Disabilita l'ID pubblicitario per gli annunci rilevanti</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableAdsInfo" xml:space="preserve">
+    <value>Windows 10 viene integrato con la pubblicità. Microsoft assegna un identificatore univoco per tracciare la tua attività nel Microsoft Store e nelle app UWP per fornirti annunci pertinenti.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableBiometrics" xml:space="preserve">
+    <value>Disabilita La Biometria Di Windows Hello</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableBiometricsInfo" xml:space="preserve">
+    <value>La biometria di Windows Hello ti permette di accedere ai tuoi dispositivi, app, servizi online e reti utilizzando il viso, l'iride o l'impronta digitale.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableCEIP" xml:space="preserve">
+    <value>Disabilita Programma Di Esperienza Utente</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableCEIPInfo" xml:space="preserve">
+    <value>Il programma di miglioramento dell'esperienza utente (CEIP) è una funzione che viene attivata di default su Windows 10, raccoglie segretamente e invia a Microsoft informazioni sull'utilizzo di hardware e software.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableCompTelemetry" xml:space="preserve">
+    <value>Disabilita Telemetria Compatibilità</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableCompTelemetryInfo" xml:space="preserve">
+    <value>Questo processo raccoglie periodicamente una varietà di dati tecnici sul computer e le sue prestazioni e lo invia a Microsoft per il suo programma di miglioramento dell'esperienza utenti di Windows.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableFeedback" xml:space="preserve">
+    <value>Non mostrare le notifiche di feedback</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableFeedbackInfo" xml:space="preserve">
+    <value>Windows 10 può anche visualizzare dei pop up di tanto in tanto e chiedere un feedback.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableHEIP" xml:space="preserve">
+    <value>Disabilita Programma Help Experience</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableHEIPInfo" xml:space="preserve">
+    <value>Il programma di miglioramento di Help Experience (HEIP) raccoglie e invia a Microsoft informazioni su come si utilizza Windows Help. Questo potrebbe rivelare quali problemi si sta avendo con il computer.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableLocation" xml:space="preserve">
+    <value>Disabilita tracciamento posizione</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableLocationInfo" xml:space="preserve">
+    <value>Ovunque tu vada, Windows 10 sa che sei lì. Quando il monitoraggio della posizione è attivato, Windows e le sue applicazioni possono rilevare la posizione corrente del computer o del dispositivo.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableMSExperiments" xml:space="preserve">
+    <value>Disabilita Sperimentazione Impostazioni</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableMSExperimentsInfo" xml:space="preserve">
+    <value>In alcune build di Windows 10, gli utenti potrebbero permettere a Microsoft di sperimentare con il sistema per studiare le preferenze utente o il comportamento del dispositivo. Questo permette a Microsoft di “condurre esperimenti” con le impostazioni sul vostro PC e dovrebbe essere disabilitato con questa impostazione.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTelemetry" xml:space="preserve">
+    <value>Disabilita Telemetria</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTelemetryInfo" xml:space="preserve">
+    <value>Questo impedirà a Windows di raccogliere le informazioni di utilizzo e impostare i dati diagnostici di base, che è il livello più basso disponibile per tutte le versioni dei consumatori di Windows 10.\nIl diagramma dei servizi &amp; dmwappushservice sarà disabilitato.\nNOTA: I dati diagnostici devono essere impostati su Full per ottenere le build di anteprima dal programma Windows Insider!</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTimeline" xml:space="preserve">
+    <value>Disabilita funzione Timeline</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTimelineInfo" xml:space="preserve">
+    <value>Questo raccoglie una cronologia delle attività che hai eseguito, inclusi i file che hai aperto e le pagine web che hai visualizzato a Edge.\nSe la Timeline non è per te, o semplicemente non vuoi che Windows 10 raccolga le tue attività e informazioni sensibili, puoi disabilitare completamente la Timeline con questa impostazione.\nNota: per rendere effettive le modifiche è necessario un riavvio del sistema.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTips" xml:space="preserve">
+    <value>Disabilita Suggerimenti Windows</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTipsInfo" xml:space="preserve">
+    <value>Non vedrai più i suggerimenti di Windows, ad esempio Spotlight, le notifiche di feedback ecc.</value>
+  </data>
+  <data name="settingsPrivacyDisableTipsLockScreen" xml:space="preserve">
+    <value>Disabilita pubblicità e link nella schermata di blocco</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTipsLockScreenInfo" xml:space="preserve">
+    <value>Questa impostazione imposterà le opzioni di sfondo della schermata di blocco a un'immagine e disattiverà suggerimenti, fatti divertenti e trucchi da Microsoft.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableWiFi" xml:space="preserve">
+    <value>Disabilita Sensore Wi-Fi</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableWiFiInfo" xml:space="preserve">
+    <value>Dovresti almeno impedire al tuo PC di inviare la password Wi-Fi.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyGetMoreOutOfWindows" xml:space="preserve">
+    <value>Disabilita Ottieni ancora di più da Windows</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyGetMoreOutOfWindowsInfo" xml:space="preserve">
+    <value>Le versioni recenti di Windows 10 visualizzano occasionalmente una piccola finestra "Ottieni ancora di più da Windows" quando accedi al tuo account utente. Se lo trovi fastidioso, puoi disabilitarlo con questa impostazione.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyHandwritingData" xml:space="preserve">
+    <value>Impedisci di utilizzare i dati di scrittura</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyHandwritingDataInfo" xml:space="preserve">
+    <value>Se non si desidera che Windows conosca e registra tutte le parole uniche che si utilizzano, come nomi e gergo professionale, basta abilitare questa impostazione.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyInstalledApps" xml:space="preserve">
+    <value>Blocca l'installazione automatica delle app</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyInstalledAppsInfo" xml:space="preserve">
+    <value>Quando si accede ad un nuovo profilo o dispositivo di Windows 10 per la prima volta, si notano diverse applicazioni di terze parti e giochi elencati in primo piano nel menu Start.\nQuesta impostazione bloccherà l'installazione automatica delle app suggerite di Windows 10.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyInventoryCollector" xml:space="preserve">
+    <value>Disabilita Inventory Collector</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyInventoryCollectorInfo" xml:space="preserve">
+    <value>L'Inventory Collector archivia applicazioni, dispositivi e driver sul sistema e invia le informazioni a Microsoft. Queste informazioni sono usate per aiutare a diagnosticare problemi di compatibilità.\nNota: questa impostazione non ha effetto se il programma di miglioramento dell'esperienza del cliente è disattivato. Il Collettore di inventario sarà disattivato.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacySuggestedContent" xml:space="preserve">
+    <value>Blocca i contenuti suggeriti nell'app Impostazioni</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacySuggestedContentInfo" xml:space="preserve">
+    <value>Per aiutare i nuovi utenti di Windows 10 a imparare nuove funzionalità di Windows 10, Microsoft ha iniziato a mostrare i contenuti suggeriti tramite un enorme banner in Windows 10 Impostazione App.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsSecurityDisablePassword" xml:space="preserve">
+    <value>Disabilita il pulsante rivelatore password</value>
+    <comment>Settings &gt; Security</comment>
+  </data>
+  <data name="settingsSecurityDisablePasswordInfo" xml:space="preserve">
+    <value>Il pulsante rivelatore password può essere usato per visualizzare una password inserita e dovrebbe essere disabilitato con questa impostazione.</value>
+    <comment>Settings &gt; Security</comment>
+  </data>
+  <data name="settingsSecurityWindowsDRM" xml:space="preserve">
+    <value>Disabilita DRM in Windows Media Player</value>
+    <comment>Settings &gt; Security</comment>
+  </data>
+  <data name="settingsSecurityWindowsDRMInfo" xml:space="preserve">
+    <value>Se il Windows Media Digital Rights Management non dovrebbe ottenere l'accesso a Internet (o intranet) per l'acquisizione di licenze e aggiornamenti di sicurezza, è possibile impedirlo con questa impostazione.</value>
+    <comment>Settings &gt; Security</comment>
+  </data>
+  <data name="settingsUpdatesBlockMajorUpdates" xml:space="preserve">
+    <value>Blocca gli aggiornamenti principali di Windows</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="settingsUpdatesBlockMajorUpdatesInfo" xml:space="preserve">
+    <value>Questa impostazione chiamata "TargetReleaseVersionInfo" impedisce l'installazione degli aggiornamenti delle funzionalità di Windows 10 fino a quando la versione specificata raggiunge la fine del supporto.\nSpecificherà la versione attualmente utilizzata di Windows 10 come versione di rilascio di destinazione di Windows 10 che si desidera che il sistema sia acceso (supporta solo versioni Pro e enterprise).</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="settingsUpdatesDisableSafeguards" xml:space="preserve">
+    <value>Disabilita safeguard per gli Aggiornamenti delle Funzionalità</value>
+  </data>
+  <data name="settingsUpdatesDisableSafeguardsInfo" xml:space="preserve">
+    <value>Microsoft utilizza i dati di diagnostica per determinare se i dispositivi che utilizzano Windows Update sono pronti per un aggiornamento delle funzionalità al fine di garantire un'esperienza migliore.\nQuando Microsoft determina che un dispositivo non è pronto per l'aggiornamento a causa di un problema noto, viene generato un blocco di salvaguardia (noto anche come blocco di compatibilità o blocco di aggiornamento) per ritardare l'aggiornamento del dispositivo e proteggere l'esperienza dell'utente finale.\nQuesta impostazione disattiverà le protezioni di salvaguardia consentendo di aggirare qualsiasi blocco di aggiornamento delle funzionalità.</value>
+  </data>
+  <data name="settingsUpdatesDisableUpdates" xml:space="preserve">
+    <value>Disabilita gli aggiornamenti forzati di Windows</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="settingsUpdatesDisableUpdatesInfo" xml:space="preserve">
+    <value>Questo avviserà quando gli aggiornamenti sono disponibili e si decide quando installarli.</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="settingsUpdatesUpdateSharing" xml:space="preserve">
+    <value>Disabilita condivisione aggiornamenti di Windows</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="settingsUpdatesUpdateSharingInfo" xml:space="preserve">
+    <value>Windows 10 consente di scaricare gli aggiornamenti da diverse fonti per accelerare il processo di aggiornamento del sistema operativo. Questo disabiliterà la condivisione dei file da parte di altri e l'esposizione del tuo indirizzo IP a computer casuali.</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="statusDoPSApply" xml:space="preserve">
+    <value>Applica</value>
+  </data>
+  <data name="statusDoPSProcessing" xml:space="preserve">
+    <value>In elaborazione</value>
+  </data>
+  <data name="statusDoWait" xml:space="preserve">
+    <value>Attendere prego ...</value>
+  </data>
+  <data name="statusFailedApply" xml:space="preserve">
+    <value>Non applicato</value>
+  </data>
+  <data name="statusFailedConfigure" xml:space="preserve">
+    <value>Non configurato</value>
+  </data>
+  <data name="statusFinishAnalyze" xml:space="preserve">
+    <value>Analisi completata.</value>
+  </data>
+  <data name="statusFinishApply" xml:space="preserve">
+    <value>Applicazione terminata.</value>
+  </data>
+  <data name="statusFinishUndo" xml:space="preserve">
+    <value>Ripristino completo.</value>
+  </data>
+  <data name="statusSuccessApply" xml:space="preserve">
+    <value>Applicato</value>
+  </data>
+  <data name="statusSuccessConfigure" xml:space="preserve">
+    <value>Configurato</value>
+  </data>
+  <data name="statusUndoSettings" xml:space="preserve">
+    <value>Vuoi davvero ripristinare tutte le impostazioni selezionate allo stato predefinito di Windows 10?</value>
+  </data>
+  <data name="TxtPSInfo" xml:space="preserve">
+    <value>Benvenuti nel Modern Policy Editor, che consente di applicare criteri di gruppo e impostazioni personalizzate sotto forma di script e modelli PowerShell (script bundled).
+
+Seleziona uno script per visualizzare la descrizione.
+
+Per controllare le vulnerabilità clicca su "Visualizza codice".
+
+Per ottenere nuovi oggetti (modelli, script ecc.) visitare il Marketplace nel menu in alto a destra.</value>
+    <comment>GUI </comment>
+  </data>
+</root>

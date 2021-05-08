@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Privacy
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Privacy
 
         public override string ID()
         {
-            return "Disable Help Experience Program";
+            return Locale.settingsPrivacyDisableHEIP;
         }
 
         public override string Info()
         {
-            return "The Help Experience Improvement Program (HEIP) collects and send to Microsoft information about how you use Windows Help. This might reveal what problems you are having with your computer.";
+            return Locale.settingsPrivacyDisableHEIPInfo;
         }
 
         public override bool CheckSetting()

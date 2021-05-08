@@ -1,7 +1,6 @@
 ﻿# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Script is provided by an user from superuser.com
 # Compatibility: Tested on Windows 10, version 1903, 1909, 2004
-# Script was adapted for Spydish https://github.com/mirinsoft/spydish
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ### This script will clean Windows 10s start menu from all the default pinned apps (live tiles) that you are using. ###
 ### It will remove all titles for the current logged user, plus it will optionally do the same for all new users accounts created on the computer.

@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Privacy
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Privacy
 
         public override string ID()
         {
-            return "Disable Wi-Fi Sense";
+            return Locale.settingsPrivacyDisableWiFi;
         }
 
         public override string Info()
         {
-            return "You should at least stop your PC from sending your Wi-Fi password.";
+            return Locale.settingsPrivacyDisableWiFiInfo;
         }
 
         public override bool CheckSetting()

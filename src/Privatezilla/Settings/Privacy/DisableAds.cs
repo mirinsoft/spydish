@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Privacy
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Privacy
 
         public override string ID()
         {
-            return "Disable Advertising ID for Relevant Ads";
+            return Locale.settingsPrivacyDisableAds;
         }
 
         public override string Info()
         {
-            return "Windows 10 comes integrated with advertising. Microsoft assigns a unique identificator to track your activity in the Microsoft Store and on UWP apps to target you with relevant ads.";
+            return Locale.settingsPrivacyDisableAdsInfo;
         }
 
         public override bool CheckSetting()

@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Privacy
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Privacy
 
         public override string ID()
         {
-            return "Disable Location tracking";
+            return Locale.settingsPrivacyDisableLocation;
         }
 
         public override string Info()
         {
-            return "Wherever you go, Windows 10 knows you're there. When Location Tracking is turned on, Windows and its apps are allowed to detect the current location of your computer or device.";
+            return Locale.settingsPrivacyDisableLocationInfo;
         }
 
         public override bool CheckSetting()

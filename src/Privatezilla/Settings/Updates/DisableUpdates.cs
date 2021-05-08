@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Updates
 {
@@ -11,18 +12,18 @@ namespace Privatezilla.Setting.Updates
 
         public override string ID()
         {
-            return "Disable forced Windows updates";
+            return Locale.settingsUpdatesDisableUpdates;
         }
 
         public override string Info()
         {
-            return "This will notify when updates are available, and you decide when to install them.";
+            return Locale.settingsUpdatesDisableUpdatesInfo;
         }
 
         public override bool CheckSetting()
         {
             return !(
-                    RegistryHelper.IntEquals(NoAutoUpdate, "NoAutoUpdate",0) &&
+                    RegistryHelper.IntEquals(NoAutoUpdate, "NoAutoUpdate", 1) &&
                     RegistryHelper.IntEquals(AUOptions, "AUOptions", 2) &&
                     RegistryHelper.IntEquals(ScheduledInstallDay, "ScheduledInstallDay", 0) &&
                     RegistryHelper.IntEquals(ScheduledInstallTime, "ScheduledInstallTime", 3)
@@ -33,7 +34,7 @@ namespace Privatezilla.Setting.Updates
         {
             try
             {
-                Registry.SetValue(NoAutoUpdate, "NoAutoUpdate", 0, RegistryValueKind.DWord);
+                Registry.SetValue(NoAutoUpdate, "NoAutoUpdate", 1, RegistryValueKind.DWord);
                 Registry.SetValue(AUOptions, "AUOptions", 2, RegistryValueKind.DWord);
                 Registry.SetValue(ScheduledInstallDay, "ScheduledInstallDay", 0, RegistryValueKind.DWord);
                 Registry.SetValue(ScheduledInstallTime, "ScheduledInstallTime", 3, RegistryValueKind.DWord);
@@ -49,7 +50,7 @@ namespace Privatezilla.Setting.Updates
         {
             try
             {
-                Registry.SetValue(NoAutoUpdate, "NoAutoUpdate", 1, RegistryValueKind.DWord);
+                Registry.SetValue(NoAutoUpdate, "NoAutoUpdate", 0, RegistryValueKind.DWord);
 
                 var RegKey = Registry.LocalMachine.OpenSubKey(@"Software\Policies\Microsoft\Windows\WindowsUpdate\AU", true);
                 RegKey.DeleteValue("AUOptions");
@@ -59,10 +60,9 @@ namespace Privatezilla.Setting.Updates
                 return true;
             }
             catch
-            {}
+            { }
 
             return false;
         }
-
     }
 }

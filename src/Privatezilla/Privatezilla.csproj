@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>Privatezilla</RootNamespace>
     <AssemblyName>Privatezilla</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -38,7 +38,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <ApplicationIcon>AppIcon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x64|AnyCPU'">
     <OutputPath>bin\x64\</OutputPath>
@@ -76,6 +76,11 @@
   <ItemGroup>
     <Compile Include="Helpers\WindowsHelper.cs" />
     <Compile Include="Interfaces\IListView.cs" />
+    <Compile Include="Locales\Locale.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Locale.resx</DependentUpon>
+    </Compile>
     <Compile Include="Settings\Apps\AccountInfo.cs" />
     <Compile Include="Settings\Apps\AppNotifications.cs" />
     <Compile Include="Settings\Apps\BackgroundApps.cs" />
@@ -140,6 +145,7 @@
     <Compile Include="Settings\Security\DisablePassword.cs" />
     <Compile Include="Settings\Security\WindowsDRM.cs" />
     <Compile Include="Settings\Updates\BlockMajorUpdates.cs" />
+    <Compile Include="Settings\Updates\DisableSafeguards.cs" />
     <Compile Include="Settings\Updates\DisableUpdates.cs" />
     <Compile Include="Settings\Updates\UpdatesSharing.cs" />
     <Compile Include="Program.cs" />
@@ -148,10 +154,21 @@
     <Compile Include="Settings\Cortana\DisableCortana.cs" />
     <Compile Include="Helpers\SetttingsBase.cs" />
     <Compile Include="Settings\Privacy\DisableTelemetry.cs" />
+    <EmbeddedResource Include="Locales\Locale.ar.resx" />
+    <EmbeddedResource Include="Locales\Locale.de.resx" />
+    <EmbeddedResource Include="Locales\Locale.fr.resx" />
+    <EmbeddedResource Include="Locales\Locale.it.resx" />
+    <EmbeddedResource Include="Locales\Locale.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Locale.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Locales\Locale.tr.resx" />
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Locales\Locale.es.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -162,6 +179,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Locales\Locale.ru.resx" />
+    <EmbeddedResource Include="Locales\Locale.zh.resx" />
     <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -176,9 +195,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="icon.ico" />
+    <Content Include="AppIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

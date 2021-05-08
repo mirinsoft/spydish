@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Privacy
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Privacy
 
         public override string ID()
         {
-            return "Block suggested apps in Start";
+            return Locale.settingsPrivacyBlockSuggestedApps;
         }
 
         public override string Info()
         {
-            return "This will block the Suggested Apps that occasionally appear on the Start menu.";
+            return Locale.settingsPrivacyBlockSuggestedAppsInfo;
         }
 
         public override bool CheckSetting()

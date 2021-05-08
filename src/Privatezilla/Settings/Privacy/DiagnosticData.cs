@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Privacy
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Privacy
 
         public override string ID()
         {
-            return "Prevent using diagnostic data";
+            return Locale.settingsPrivacyDiagnosticData;
         }
 
         public override string Info()
         {
-            return "This will turn off tailored experiences with relevant tips and recommendations by using your diagnostics data. Many people would call this telemetry, or even spying.";
+            return Locale.settingsPrivacyDiagnosticDataInfo;
         }
 
         public override bool CheckSetting()

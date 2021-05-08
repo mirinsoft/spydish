@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Privacy
 {
@@ -11,13 +12,13 @@ namespace Privatezilla.Setting.Privacy
 
         public override string ID()
         {
-            return "Disable Ads and Links on Lock Screen";
+            return Locale.settingsPrivacyDisableTipsLockScreen;
 
         }
 
         public override string Info()
         {
-            return "This setting will set your lock screen background options to a picture and turn off tips, fun facts and tricks from Microsoft.";
+            return Locale.settingsPrivacyDisableTipsLockScreenInfo;
         }
 
         public override bool CheckSetting()

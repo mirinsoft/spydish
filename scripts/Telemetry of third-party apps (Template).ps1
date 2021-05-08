@@ -1,4 +1,4 @@
-﻿### This template will block and disable telemetry features of the following apps: ###
+﻿### This is a template which will block and disable telemetry features of the following apps: ###
 ###- Block Google Chrome Software Reporter Tool
 # The Software Reporter Tool (also known as Chrome Cleanup Tool and Software Removal Tool, the executable file is software_reporter_tool.exe), is a tool that Google distributes with the Google Chrome web browser. 
 # It is a part of Google Chrome's Clean up Computer feature which scans your computer for harmful software. If this tool finds any harmful app or extension which can cause problems, it removes them from your computer. 

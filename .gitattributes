@@ -1,5 +1,0 @@
-* linguist-vendored
-* linguist-language=csharp
-
-# Normalize line endings.
-* text=auto

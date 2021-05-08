@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Edge
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Edge
 
         public override string ID()
         {
-            return "Disable synchronization of data";
+            return Locale.settingsEdgeDisableSync;
         }
 
         public override string Info()
         {
-            return "This setting will disable synchronization of data using Microsoft sync services.";
+            return Locale.settingsEdgeDisableSyncInfo;
         }
 
         public override bool CheckSetting()

@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Privacy
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Privacy
 
         public override string ID()
         {
-            return "Disable Get Even More Out of Windows";
+            return Locale.settingsPrivacyGetMoreOutOfWindows;
         }
 
         public override string Info()
         {
-            return "Recent Windows 10 versions occasionally display a nag screen \"Get Even More Out of Windows\" when you sign-in to your user account. If you find it annoying, you can disable it with this setting.";
+            return Locale.settingsPrivacyGetMoreOutOfWindowsInfo.Replace("\\n", "\n");
         }
 
         public override bool CheckSetting()

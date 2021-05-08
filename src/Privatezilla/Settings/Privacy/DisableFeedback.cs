@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Privacy
 {
@@ -10,12 +11,12 @@ namespace Privatezilla.Setting.Privacy
 
         public override string ID()
         {
-            return "Do not show feedback notifications";
+            return Locale.settingsPrivacyDisableFeedback;
         }
 
         public override string Info()
         {
-            return "Windows 10 may also pop up from time to time and ask for feedback.";
+            return Locale.settingsPrivacyDisableFeedbackInfo;
         }
 
         public override bool CheckSetting()

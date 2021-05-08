@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Security
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Security
 
         public override string ID()
         {
-            return "Disable DRM in Windows Media Player";
+            return Locale.settingsSecurityWindowsDRM;
         }
 
         public override string Info()
         {
-            return "If the Windows Media Digital Rights Management should not get access to the Internet (or intranet) for license acquisition and security upgrades, you can prevent it with this setting.";
+            return Locale.settingsSecurityWindowsDRMInfo;
         }
 
         public override bool CheckSetting()

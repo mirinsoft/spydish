@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Privacy
 {
@@ -10,12 +11,12 @@ namespace Privatezilla.Setting.Privacy
 
         public override string ID()
         {
-            return "Disable Timeline feature";
+            return Locale.settingsPrivacyDisableTimeline;
         }
 
         public override string Info()
         {
-            return "This collects a history of activities you've performed, including files you've opened and web pages you've viewed in Edge.\nIf Timeline isn’t for you, or you simply don’t want Windows 10 collecting your sensitive activities and information, you can disable Timeline completely with this setting.\nNote: A system reboot is required for the changes to take effect.";
+            return Locale.settingsPrivacyDisableTimelineInfo.Replace("\\n", "\n");
         }
 
         public override bool CheckSetting()

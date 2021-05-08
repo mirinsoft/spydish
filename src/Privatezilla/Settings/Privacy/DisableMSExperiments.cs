@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Privacy
 {
@@ -9,13 +10,13 @@ namespace Privatezilla.Setting.Privacy
 
         public override string ID()
         {
-            return "Disable Settings Experimentation";
+            return Locale.settingsPrivacyDisableMSExperiments;
   
         }
 
         public override string Info()
         {
-            return "In certain builds of Windows 10, users could let Microsoft experiment with the system to study user preferences or device behavior. This allows Microsoft to “conduct experiments” with the settings on your PC and should be disabled with this setting.";
+            return Locale.settingsPrivacyDisableMSExperimentsInfo.Replace("\\n", "\n");
         }
 
         public override bool CheckSetting()

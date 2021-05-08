@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Management.Automation;
 using System.IO;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Cortana
 {
@@ -8,12 +9,12 @@ namespace Privatezilla.Setting.Cortana
     {
         public override string ID()
         {
-            return "Uninstall Cortana";
+            return Locale.settingsCortanaUninstallCortana;
         }
 
         public override string Info()
         {
-            return "This will uninstall the new Cortana app on Windows 10, version 2004.";
+            return Locale.settingsCortanaUninstallCortanaInfo;
         }
 
         public override bool CheckSetting()

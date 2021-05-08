@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Privacy
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Privacy
 
         public override string ID()
         {
-            return "Disable Windows Hello Biometrics";
+            return Locale.settingsPrivacyDisableBiometrics;
         }
 
         public override string Info()
         {
-            return "Windows Hello biometrics lets you sign in to your devices, apps, online services, and networks using your face, iris, or fingerprint";
+            return Locale.settingsPrivacyDisableBiometricsInfo;
         }
 
         public override bool CheckSetting()

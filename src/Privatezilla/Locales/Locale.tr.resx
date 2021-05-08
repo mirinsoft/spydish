@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BtnDoPS" xml:space="preserve">
+    <value>Seçilenleri uygula</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="BtnSettingsAnalyze" xml:space="preserve">
+    <value>Analiz et</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="BtnSettingsDo" xml:space="preserve">
+    <value>Seçilenleri uygula</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="BtnSettingsUndo" xml:space="preserve">
+    <value>Seçilenleri geri al</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="CheckRelease" xml:space="preserve">
+    <value>Güncellemeleri denetle</value>
+    <comment>Main menu</comment>
+  </data>
+  <data name="ChkCodePS" xml:space="preserve">
+    <value>Kodu görüntüle</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="columnSetting" xml:space="preserve">
+    <value>Ayar</value>
+    <comment>TreeView</comment>
+  </data>
+  <data name="columnState" xml:space="preserve">
+    <value>Durum</value>
+    <comment>TreeView</comment>
+  </data>
+  <data name="CommunityPkg" xml:space="preserve">
+    <value>Topluluk paketini edin</value>
+    <comment>Main menu</comment>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Kısa Yardım</value>
+    <comment>Main menu</comment>
+  </data>
+  <data name="helpApp" xml:space="preserve">
+    <value>Bir ayar hakkında bilgi almak için: \r\nİmleci bir ayarın üstüne getirin
+                                           \r\nAnaliz (Buton): Hangi ayarların etkinleştirilip, sisteminizde yapılandırıldığını kontrol et. Sistemde herhangi bir değişiklik YAPMAZ!
+                                           \r\nSeçilenleri uygula (Buton): Seçtiğiniz tüm ayarları aktif eder.
+                                           \r\nSeçilenleri geri al (Buton): Seçtiğinz ayarları Windows 10 varsayılanına döndürür.
+                                           \r\nYapılandırıldı (Durum): Bu, gizliliğinizin korunduğunu gösterir.
+                                           \r\nYapılandırılmadı (Durum): Bu, Windows 10 ayarlarının yerinde olduğunu gösterir.</value>
+    <comment>Main menu</comment>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Bilgi</value>
+    <comment>Main menu</comment>
+  </data>
+  <data name="infoApp" xml:space="preserve">
+    <value>
+Açık kaynak kodlu Windows 10 gizlilik ayarı uygulaması.
+
+Bu, tamamen bağımsız bir projedir ve Microsoft ile ilgili herhangi bir bağlantısı yoktur.
+
+Bu proje hakkındaki tüm bilgiler ve yapımcılar
+\tgithub.com/builtbybel/privatezilla
+
+Ayrıca beni buradan takip edebilirsiniz
+\ttwitter.com/builtbybel
+ 
+☆━━━━━━━━━━━━━━━☆
+Translator: Yusuf Cihan (https://github.com/ysfchn)
+☆━━━━━━━━━━━━━━━☆
+
+(C#) 2021, Builtbybel</value>
+    <comment>About the app
+Add translation credits here!</comment>
+  </data>
+  <data name="LblPS" xml:space="preserve">
+    <value>Kodlar</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="LblPSHeader" xml:space="preserve">
+    <value>PowerShell kodunu uygula</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="LblSettings" xml:space="preserve">
+    <value>Ayarla</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="LblStatus" xml:space="preserve">
+    <value>Yapılandırılmış ayarları kontrol etmek için Analiz tuşuna basın.</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="msgAppCompatibility" xml:space="preserve">
+    <value>Privatezilla'yı Windows 10'dan daha eski bir sistemde kullanıyorsunuz. Privatezilla SADECE Windows 10 ile sınırlıdır.</value>
+  </data>
+  <data name="msgPSSave" xml:space="preserve">
+    <value>Lütfen kod görünümüne geçin.</value>
+    <comment>Scripts (optional)</comment>
+  </data>
+  <data name="msgPSSelect" xml:space="preserve">
+    <value>Lütfen bir komut dosyası seçin.</value>
+    <comment>Scripts (optional)</comment>
+  </data>
+  <data name="msgPSSuccess" xml:space="preserve">
+    <value>başarıyla çalıştırıldı</value>
+    <comment>Scripts (optional)</comment>
+  </data>
+  <data name="PSBack" xml:space="preserve">
+    <value>Geri</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="PSImport" xml:space="preserve">
+    <value>Komut dosyasını içeri aktar</value>
+    <comment>Scripting menu</comment>
+  </data>
+  <data name="PSInfo" xml:space="preserve">
+    <value>Bu komut dosyası ne yapıyor?\r\n</value>
+    <comment>Scripting menu</comment>
+  </data>
+  <data name="PSMarketplace" xml:space="preserve">
+    <value>Pazarı ziyaret edin</value>
+    <comment>Scripting menu</comment>
+  </data>
+  <data name="PSSaveAs" xml:space="preserve">
+    <value>Mevcut komut dosyasını önayarlı komut dosyası olarak kaydet</value>
+    <comment>Scripting menu</comment>
+  </data>
+  <data name="releaseUnofficial" xml:space="preserve">
+    <value>Privatezilla'nın resmi olmayan bir sürümünü kullanıyorsunuz.</value>
+  </data>
+  <data name="releaseUpdateAvailable" xml:space="preserve">
+    <value>Yeni sürüm mevcut #</value>
+  </data>
+  <data name="releaseUpdateAvailableURL" xml:space="preserve">
+    <value>\r\n@github/releases sayfasını açmak istiyor musunuz?</value>
+  </data>
+  <data name="releaseUpdateYourVersion" xml:space="preserve">
+    <value>\r\n# sürümünü kullanıyorsunuz</value>
+  </data>
+  <data name="releaseUpToDate" xml:space="preserve">
+    <value>Şu an herhangi bir güncelleme mevcut değil.</value>
+  </data>
+  <data name="rootSettingsApps" xml:space="preserve">
+    <value>Uygulama izinleri</value>
+  </data>
+  <data name="rootSettingsBloatware" xml:space="preserve">
+    <value>Bloatware</value>
+  </data>
+  <data name="rootSettingsBloatwareInfo" xml:space="preserve">
+    <value>Windows 10'daki gereksiz, sistem kaynağı sömüren uygulamalardan kurtulun</value>
+  </data>
+  <data name="rootSettingsCortana" xml:space="preserve">
+    <value>Cortana</value>
+  </data>
+  <data name="rootSettingsDefender" xml:space="preserve">
+    <value>Windows Defender</value>
+  </data>
+  <data name="rootSettingsEdge" xml:space="preserve">
+    <value>Microsoft Edge</value>
+  </data>
+  <data name="rootSettingsGaming" xml:space="preserve">
+    <value>Oyun</value>
+  </data>
+  <data name="rootSettingsPrivacy" xml:space="preserve">
+    <value>Gizlilik</value>
+  </data>
+  <data name="rootSettingsSecurity" xml:space="preserve">
+    <value>Güvenlik</value>
+  </data>
+  <data name="rootSettingsUpdates" xml:space="preserve">
+    <value>Güncellemeler</value>
+  </data>
+  <data name="settingsAppsAccountInfo" xml:space="preserve">
+    <value>Uygulamaların hesap erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsAppNotifications" xml:space="preserve">
+    <value>Uygulama bildirimlerini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsAppNotificationsInfo" xml:space="preserve">
+    <value>Windows 10'da bulunan İşlem Merkezi, modern uygulamalardan oluşturulanların yanı sıra geleneksel Windows uygulamalarından ve sistem bildirimlerinden gelen bildirimleri ve uyarıları toplar ve gösterir.\nBildirimler daha sonra İşlem Merkezi'nde uygulama ve zamana göre gruplandırılır.\nBu ayar, uygulamalardan ve diğer gönderenlerden gelen tüm bildirimleri ayarlarda devre dışı bırakır.</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsBackgroundApps" xml:space="preserve">
+    <value>Uygulamaların arkada çalışmasını kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsBackgroundAppsInfo" xml:space="preserve">
+    <value>Windows 10 uygulamalarının artık arka planda çalışma izni olmaz, bu nedenle canlı kutucuklar güncellenemez, yeni veriler çekemez ve bildirim alamazlar.</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsCalendar" xml:space="preserve">
+    <value>Uygulamaların takvime erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsCall" xml:space="preserve">
+    <value>Uygulamaların çağrılara erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsCallHistory" xml:space="preserve">
+    <value>Uygulamaların çağrı geçmişine erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsCamera" xml:space="preserve">
+    <value>Uygulamaların kameraya erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsCellularData" xml:space="preserve">
+    <value>Uygulamaların mobil veriye erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsCellularDataInfo" xml:space="preserve">
+    <value>Bazı Windows 10 cihazlarda, mobil veriye erişip, her yerde bağlı kalmayı sağlayan bir SIM kartı / eSIM vardır.\nEğer hiç bir uygulamanızın mobil veriye erişmesini istemiyorsanız, bu ayar ile birlikte kapatabilirsiniz. </value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsContacts" xml:space="preserve">
+    <value>Uygulamaların rehbere erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsDiagnosticInformation" xml:space="preserve">
+    <value>Uygulamaların tanı bilgilerine erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsDocuments" xml:space="preserve">
+    <value>Uygulamaların belgelere erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsEmail" xml:space="preserve">
+    <value>Uygulamaların epostalara erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsEyeGaze" xml:space="preserve">
+    <value>Uygulamaların göz takip erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsEyeGazeInfo" xml:space="preserve">
+    <value>Uygulamaların göz bakış tabanlı etkileşim erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsFileSystem" xml:space="preserve">
+    <value>Uygulamaların dosya sistemine erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsFileSystemInfo" xml:space="preserve">
+    <value>Bu ayar, uygulamaların dosya sistemine erişimini devre dışı bırakacaktır. Bazı uygulamaların işlevleri kısıtlanabilir veya artık çalışmayabilir.</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsMessaging" xml:space="preserve">
+    <value>Uygulamaların mesajlara erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsMicrophone" xml:space="preserve">
+    <value>Uygulamaların mikrofona erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsMotion" xml:space="preserve">
+    <value>Uygulamaların hareket erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsNotification" xml:space="preserve">
+    <value>Uygulamaların bildirim erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsOtherDevices" xml:space="preserve">
+    <value>Uygulamaların diğer cihazlara erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsPictures" xml:space="preserve">
+    <value>Uygulamaların fotoğraflara erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsRadios" xml:space="preserve">
+    <value>Uygulamaların radyolara erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsTasks" xml:space="preserve">
+    <value>Uygulamaların görevlere erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsTrackingApps" xml:space="preserve">
+    <value>Uygulama başlatılma takibini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsTrackingAppsInfo" xml:space="preserve">
+    <value>Bu, hem Başlat menüsünde hem de cihazınızda arama yaparken En çok kullanılan uygulamalar listenize hızlı bir şekilde erişmenizi sağlar. </value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsVideos" xml:space="preserve">
+    <value>Uygulamaların videolara erişimini kapat</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsBloatwareRemoveUWPAll" xml:space="preserve">
+    <value>Kendiliğinden yüklü tüm uygulamaları sil</value>
+    <comment>Settings &gt; Bloatware</comment>
+  </data>
+  <data name="settingsBloatwareRemoveUWPAllInfo" xml:space="preserve">
+    <value>Bu, Microsoft Store dışındaki kendiliğinden yüklü tüm uygulamaları silecektir.</value>
+    <comment>Settings &gt; Bloatware</comment>
+  </data>
+  <data name="settingsBloatwareRemoveUWPDefaults" xml:space="preserve">
+    <value>Varsayılanlar dışındaki kendiliğinden yüklü tüm uygulamaları sil</value>
+    <comment>Settings &gt; Bloatware</comment>
+  </data>
+  <data name="settingsBloatwareRemoveUWPDefaultsInfo" xml:space="preserve">
+    <value>Aşağıdaki uygulamalar dışındaki kendiliğinden yüklü tüm uygulamaları sil:\nMicrosoft Store\nUygulama Yükleyici\nTakvim\nPosta\nHesap Makinesi\nKamera\nSkype\nGroove Müzik\nHaritalar\nPaint 3D\nTelefonunuz\nFotoğraflar\nYapışkan Notlar\nHava\nXbox</value>
+    <comment>Settings &gt; Bloatware</comment>
+  </data>
+  <data name="settingsCortanaDisableBing" xml:space="preserve">
+    <value>Windows Arama'da Bing'i kapat</value>
+    <comment>Settings &gt; Cortana</comment>
+  </data>
+  <data name="settingsCortanaDisableBingInfo" xml:space="preserve">
+    <value>Windows 10, varsayılan olarak, size Bing aramasından sonuçlar vermek için Başlat Menüsünde aradığınız her şeyi sunucularına gönderir.</value>
+    <comment>Settings &gt; Cortana</comment>
+  </data>
+  <data name="settingsCortanaDisableCortana" xml:space="preserve">
+    <value>Cortana'yı devre dışı bırak</value>
+    <comment>Settings &gt; Cortana</comment>
+  </data>
+  <data name="settingsCortanaDisableCortanaInfo" xml:space="preserve">
+    <value>Cortana, Microsoft'un Windows 10'a entegre olarak gelen sanal asistanıdır.\nBu ayar Cortana'yı kalıcı olarak devre dışı bırakır ve arama alışkanlıklarınızı ve geçmişinizi kaydetmesini ve depolamasını engeller.</value>
+    <comment>Settings &gt; Cortana</comment>
+  </data>
+  <data name="settingsCortanaUninstallCortana" xml:space="preserve">
+    <value>Cortana'yı kaldır</value>
+    <comment>Settings &gt; Cortana</comment>
+  </data>
+  <data name="settingsCortanaUninstallCortanaInfo" xml:space="preserve">
+    <value>Windows 10'da sürüm 2004 ile birlikte gelen yeni Cortana uygulamasını kaldırır.</value>
+    <comment>Settings &gt; Cortana</comment>
+  </data>
+  <data name="settingsDefenderDisableSmartScreenStore" xml:space="preserve">
+    <value>Mağaza uygulamaları için SmartScreen'ı kapat</value>
+    <comment>Settings &gt; Defender</comment>
+  </data>
+  <data name="settingsDefenderDisableSmartScreenStoreInfo" xml:space="preserve">
+    <value>Windows Defender SmartScreen Filtresi, Microsoft Mağazası uygulamalarının kullandığı web içeriğini (URL'ler) kontrol ederek cihazınızın korunmasına yardımcı olur.</value>
+    <comment>Settings &gt; Defender</comment>
+  </data>
+  <data name="settingsEdeAutoFillCredit" xml:space="preserve">
+    <value>Kredi kartları için otomatik doldurmayı kapat</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdeAutoFillCreditInfo" xml:space="preserve">
+    <value>Microsoft Edge'in Otomatik Doldur özelliği, kullanıcıların önceden depolanan bilgileri kullanarak web formlarında kredi kartı bilgilerini otomatik olarak tamamlamasına olanak tanır.</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdgeBackground" xml:space="preserve">
+    <value>Edge'in arka planda çalışmasını önle</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdgeBackgroundInfo" xml:space="preserve">
+    <value>Microsoft Edge'in yeni Chromium sürümünde, uzantılar ve diğer hizmetler, tarayıcının kapatıldıktan sonra bile arka planda çalışmasını sağlayabilir.</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdgeBlockEdgeRollout" xml:space="preserve">
+    <value>Yeni Microsoft Edge Kurulumunu Engelle</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdgeBlockEdgeRolloutInfo" xml:space="preserve">
+    <value>Bu, cihazda henüz yüklü değilse, yeni Chromium tabanlı Microsoft Edge web tarayıcısının Windows 10 güncellemesine zorla yüklenmesini engeller.</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdgeDisableSync" xml:space="preserve">
+    <value>Veri eşitlemesini kapat</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdgeDisableSyncInfo" xml:space="preserve">
+    <value>Bu ayar, Microsoft senkronizasyon hizmetlerini kullanarak verilerin senkronizasyonunu devre dışı bırakır.</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsGamingGameBar" xml:space="preserve">
+    <value>Oyun Çubuğu özelliklerini kapat</value>
+    <comment>Settings &gt; Gaming</comment>
+  </data>
+  <data name="settingsGamingGameBarInfo" xml:space="preserve">
+    <value>Bu ayar, Windows Oyun Kaydı ve Yayın Yapma özelliğini devre dışı bırakacaktır.</value>
+    <comment>Settings &gt; Gaming</comment>
+  </data>
+  <data name="settingsGamingGameBarInfoInfo" xml:space="preserve">
+    <value>Bu, tanı verilerinizi kullanarak ilgili ipuçları ve öneriler içeren özel deneyimleri kapatır. Birçok insan buna telemetri, hatta casusluk diyor.</value>
+    <comment>Settings &gt; Gaming</comment>
+  </data>
+  <data name="settingsPrivacyBlockSuggestedApps" xml:space="preserve">
+    <value>Başlangıçta önerilen uygulamaları engelle</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyBlockSuggestedAppsInfo" xml:space="preserve">
+    <value>Bu, ara sıra Başlat menüsünde görünen Önerilen Uygulamaları engelleyecektir.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDiagnosticData" xml:space="preserve">
+    <value>Teşhis verilerinin kullanılmasını engelle</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDiagnosticDataInfo" xml:space="preserve">
+    <value>Bu, tanı verilerinizi kullanarak ilgili ipuçları ve öneriler içeren özel deneyimleri kapatır. Birçok insan buna telemetri, hatta casusluk diyor.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableAds" xml:space="preserve">
+    <value>Kişiselleştirilmiş reklamlar için reklam kimliğini kapat</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableAdsInfo" xml:space="preserve">
+    <value>Windows 10, reklamla entegre olarak gelir. Microsoft, size kişiselleştirilmiş reklam göstermek için Microsoft Store'daki ve UWP uygulamalarındaki etkinliklerinizi izlerken benzersiz bir tanımlayıcı atar.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableBiometrics" xml:space="preserve">
+    <value>Windows Hello Biyometrikler'i kapat</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableBiometricsInfo" xml:space="preserve">
+    <value>Windows Hello biyometri, cihazlarınızda, uygulamalarınızda, çevrimiçi hizmetlerinizde ve ağlarınızda yüzünüzü, gözünüzü veya parmak izinizi kullanarak oturum açmanızı sağlar.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableCEIP" xml:space="preserve">
+    <value>Müşteri Deneyimi Programını kapat</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableCEIPInfo" xml:space="preserve">
+    <value>Müşteri Deneyimi Geliştirme Programı (CEIP), Windows 10'da varsayılan olarak etkinleştirilmiş bir özelliktir ve donanım ve yazılım kullanım bilgilerini gizlice toplayıp Microsoft'a gönderir.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableCompTelemetry" xml:space="preserve">
+    <value>Uyumluluk Telemetrisini kapat</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableCompTelemetryInfo" xml:space="preserve">
+    <value>Bu işlem, periyodik olarak bilgisayarınız ve performansı hakkında çeşitli teknik veriler toplar ve bunları Windows Müşteri Deneyimini Geliştirme Programı için Microsoft'a gönderir.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableFeedback" xml:space="preserve">
+    <value>Geri bildirim isteyen bildirimleri gösterme</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableFeedbackInfo" xml:space="preserve">
+    <value>Windows 10 ayrıca zaman zaman geri bildirim isteyebilir.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableHEIP" xml:space="preserve">
+    <value>Yardım Deneyimi Programı'nı kapat</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableHEIPInfo" xml:space="preserve">
+    <value>Yardım Deneyimi Geliştirme Programı (HEIP), Windows Yardımı'nı nasıl kullandığınız hakkında bilgi toplar ve Microsoft'a gönderir. Bu, bilgisayarınızda ne tür sorunlar yaşadığınızı ortaya çıkarabilir.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableLocation" xml:space="preserve">
+    <value>Konum takibini bırak</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableLocationInfo" xml:space="preserve">
+    <value>Nereye giderseniz gidin, Windows 10 orada olduğunuzu bilir. Konum İzleme açıldığında, Windows ve uygulamalarının, bilgisayarınızın veya cihazınızın mevcut konumunu tespit etmesine izin verilir.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableMSExperiments" xml:space="preserve">
+    <value>Ayarlar deneyini kapat</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableMSExperimentsInfo" xml:space="preserve">
+    <value>Windows 10'un belirli sürümlerinde kullanıcılar, Microsoft'un kullanıcı tercihlerini veya cihaz davranışını incelemek için sistemi denemesine izin verebilir. Bu, Microsoft'un bilgisayarınızdaki ayarlarla "deneyler yapmasına" izin verir ve bu ayarla devre dışı bırakılmalıdır.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTelemetry" xml:space="preserve">
+    <value>Telemetriyi kapat</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTelemetryInfo" xml:space="preserve">
+    <value>Bu, Windows'un kullanım bilgilerini toplamasını engelleyecek ve Windows 10'un tüm tüketici sürümleri için mevcut en düşük düzey olan tanılama verilerini Temel olarak ayarlacaktır.\ndiagtrack ve dmwappushservice hizmetleri de devre dışı bırakılacaktır.\nNOT: Windows Insider Programı'ndan önizleme derlemeleri almak için tanılama verileri Tam olarak ayarlanmalıdır!</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTimeline" xml:space="preserve">
+    <value>Zaman Çizelgesi özelliğini kapat</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTimelineInfo" xml:space="preserve">
+    <value>Bu, Edge'de açtığınız dosyalar ve görüntülediğiniz web sayfaları da dahil olmak üzere gerçekleştirdiğiniz etkinliklerin geçmişini toplar.\nEğer Zaman Çizelgesi size göre değilse veya Windows 10'un hassas etkinliklerinizi toplamasını istemiyorsanız, bu ayarla Zaman Çizelgesi'ni tamamen devre dışı bırakabilirsiniz.\nNot: Değişikliklerin geçerli olması için sistemin yeniden başlatılması gerekir.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTips" xml:space="preserve">
+    <value>Windows ipuçlarını kapat</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTipsInfo" xml:space="preserve">
+    <value>Artık Windows ipuçlarını görmeyeceksiniz, ör. Gündem ve Tüketici Özellikleri, Geri Bildirim Uyarıları vb.</value>
+  </data>
+  <data name="settingsPrivacyDisableTipsLockScreen" xml:space="preserve">
+    <value>Kilit Ekranındaki reklamları ve bağlantıları kapat</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTipsLockScreenInfo" xml:space="preserve">
+    <value>Bu ayar, kilit ekranı arka plan seçeneklerinizi bir resme ayarlayacak ve Microsoft'tan ipuçları, eğlenceli bilgiler ve püf noktalarını kapatacaktır.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableWiFi" xml:space="preserve">
+    <value>Wi-Fi Sense'yi kapat</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableWiFiInfo" xml:space="preserve">
+    <value>En azından bilgisayarınızın Wi-Fi şifrenizi göndermesini engelleyin.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyGetMoreOutOfWindows" xml:space="preserve">
+    <value>Windows'tan Daha Fazlasını Edin'i kapat</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyGetMoreOutOfWindowsInfo" xml:space="preserve">
+    <value>Son Windows 10 sürümleri, kullanıcı hesabınızda oturum açtığınızda zaman zaman "Windows'tan Daha Fazlasını Edin" ekranını görüntülüyor. Can sıkıcı bulursanız, bu ayarla devre dışı bırakabilirsiniz.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyHandwritingData" xml:space="preserve">
+    <value>El yazısı verilerini kullanmayı kapat</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyHandwritingDataInfo" xml:space="preserve">
+    <value>Windows'un, isimler ve profesyonel jargon gibi kullandığınız tüm benzersiz kelimeleri bilmesini ve kaydetmesini istemiyorsanız, bu ayarı etkinleştirmeniz yeterlidir.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyInstalledApps" xml:space="preserve">
+    <value>Uygulamaların otomatik yüklenmesini engelle</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyInstalledAppsInfo" xml:space="preserve">
+    <value>Yeni bir Windows 10 profilinde veya cihazında ilk kez oturum açtığınızda, Başlat menüsünde belirgin şekilde listelenen birkaç üçüncü taraf uygulaması ve oyunu fark etmeniz olasıdır.\nBu ayar, önerilen Windows 10 uygulamalarının otomatik olarak yüklenmesini engeller.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyInventoryCollector" xml:space="preserve">
+    <value>Envanter toplayıcıyı kapat</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyInventoryCollectorInfo" xml:space="preserve">
+    <value>Envanter Toplayıcı, uygulamaları, sistemdeki aygıtları ve sürücüleri envanterler ve Microsoft'a gönderir. Bu bilgiler, uyumluluk sorunlarını teşhis etmeye yardımcı olmak için kullanılır.\nNot: Müşteri Deneyimi Geliştirme Programı kapatılırsa bu ayarın hiçbir etkisi olmaz. Envanter Toplayıcı kapalı olacaktır.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacySuggestedContent" xml:space="preserve">
+    <value>Ayarlar uygulamasında önerilen içeriği kapat</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacySuggestedContentInfo" xml:space="preserve">
+    <value>Yeni Windows 10 kullanıcılarının Windows 10'un yeni özelliklerini öğrenmesine yardımcı olmak için Microsoft, Windows 10 Ayarlar uygulamasında büyük bir afişle önerilen içeriği göstermeye başladı.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsSecurityDisablePassword" xml:space="preserve">
+    <value>Şifreyi göster tuşunu kapat</value>
+    <comment>Settings &gt; Security</comment>
+  </data>
+  <data name="settingsSecurityDisablePasswordInfo" xml:space="preserve">
+    <value>Şifre göster düğmesi, girilen bir şifreyi görüntülemek için kullanılabilir ve bu ayarla devre dışı bırakılabilir.</value>
+    <comment>Settings &gt; Security</comment>
+  </data>
+  <data name="settingsSecurityWindowsDRM" xml:space="preserve">
+    <value>Windows Media Player'da DRM'yi kapat</value>
+    <comment>Settings &gt; Security</comment>
+  </data>
+  <data name="settingsSecurityWindowsDRMInfo" xml:space="preserve">
+    <value>Windows Media Dijital Haklar Yönetimi lisans edinme ve güvenlik yükseltmeleri için İnternet'e (veya intranete) erişmemesi gerekiyorsa, bu ayarla bunu engelleyebilirsiniz.</value>
+    <comment>Settings &gt; Security</comment>
+  </data>
+  <data name="settingsUpdatesBlockMajorUpdates" xml:space="preserve">
+    <value>Büyük Windows güncellemelerini kapat</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="settingsUpdatesBlockMajorUpdatesInfo" xml:space="preserve">
+    <value>"TargetReleaseVersionInfo" adlı bu ayar, Windows 10 özellik güncellemelerinin, belirtilen sürüm desteğin sonuna gelene kadar yüklenmesini engeller.\nWindows 10'un hedef sürümü olarak şu anda kullandığınız Windows 10 sürümü olarak belirlenir. (yalnızca Pro ve kurumsal sürümleri destekler).</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="settingsUpdatesDisableSafeguards" xml:space="preserve">
+    <value>Özellik güncellemeleri için korumaları kapat</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="settingsUpdatesDisableSafeguardsInfo" xml:space="preserve">
+    <value>Microsoft, sorunsuz bir deneyim sağlamak için Windows Update kullanan cihazların özellik güncellemesine hazır olup olmadığını belirlemek için tanılama verilerini kullanır.\nMicrosoft bilinen bir sorun nedeniyle bir cihazın güncellenmeye hazır olmadığını belirlediğinde, bir koruma oluşturur. (aynı zamanda cihazın yükseltmesini geciktirmek ve son kullanıcı deneyimini korumak için bir uyumluluk bekletme veya güncelleme bloğu olarak da bilinir)\nBu ayar, tüm özellik yükseltme bloklarını atlamanıza olanak tanıyan korumaları devre dışı bırakır.</value>
+  </data>
+  <data name="settingsUpdatesDisableUpdates" xml:space="preserve">
+    <value>Zorunlu Windows güncellemelerini kapat</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="settingsUpdatesDisableUpdatesInfo" xml:space="preserve">
+    <value>Bu, güncellemeler mevcut olduğunda sizi bilgilendirir ve bunları ne zaman kuracağınıza siz karar verirsiniz.</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="settingsUpdatesUpdateSharing" xml:space="preserve">
+    <value>Windows güncelleme paylaşımını devre dışı bırakın</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="settingsUpdatesUpdateSharingInfo" xml:space="preserve">
+    <value>Windows 10, işletim sistemini güncelleme sürecini hızlandırmak için çeşitli kaynaklardan güncellemeler indirmenize izin verir. Bu, dosyalarınızı başkaları tarafından paylaşmayı ve IP adresinizi rastgele bilgisayarlara sızdırmayı devre dışı bırakır.</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="statusDoPSApply" xml:space="preserve">
+    <value>Uygula</value>
+  </data>
+  <data name="statusDoPSProcessing" xml:space="preserve">
+    <value>İşleniyor</value>
+  </data>
+  <data name="statusDoWait" xml:space="preserve">
+    <value>Lütfen bekleyin ...</value>
+  </data>
+  <data name="statusFailedApply" xml:space="preserve">
+    <value>Uygulanmadı</value>
+  </data>
+  <data name="statusFailedConfigure" xml:space="preserve">
+    <value>Yapılandırılmadı</value>
+  </data>
+  <data name="statusFinishAnalyze" xml:space="preserve">
+    <value>Analiz tamamlandı.</value>
+  </data>
+  <data name="statusFinishApply" xml:space="preserve">
+    <value>Uygulama işlemi tamamlandı.</value>
+  </data>
+  <data name="statusFinishUndo" xml:space="preserve">
+    <value>Geri alma tamamlandı.</value>
+  </data>
+  <data name="statusSuccessApply" xml:space="preserve">
+    <value>Uygulandı</value>
+  </data>
+  <data name="statusSuccessConfigure" xml:space="preserve">
+    <value>Yapılandırıldı</value>
+  </data>
+  <data name="statusUndoSettings" xml:space="preserve">
+    <value>Seçilen tüm ayarları gerçekten Windows 10 varsayılan durumuna döndürmek istiyor musunuz?</value>
+  </data>
+  <data name="TxtPSInfo" xml:space="preserve">
+    <value>Üçüncü taraf komut dosyaları ve özel ayarları, PowerShell komut dosyaları ve şablonlar (birlikte gelen komut dosyaları) biçiminde uygulamanıza olanak tanıyan Komut Dosyası Düzenleyicisine hoş geldiniz.
+
+Açıklamasını görmek için bir komut dosyası seçin.
+
+Kodu güvenlik açıklarına karşı kontrol etmek için "Kodu görüntüle" yi tıklayın.
+
+Yeni nesneler (şablonlar, komut dosyaları vb.) elde etmek için sağ üst menüdeki Pazar'ı ziyaret edin.</value>
+    <comment>GUI </comment>
+  </data>
+</root>

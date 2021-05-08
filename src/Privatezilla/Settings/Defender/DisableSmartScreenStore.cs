@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Defender
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Defender
 
         public override string ID()
         {
-            return "Disable SmartScreen for Store Apps";
+            return Locale.settingsDefenderDisableSmartScreenStore;
         }
 
         public override string Info()
         {
-            return "Windows Defender SmartScreen Filter helps protect your device by checking web content (URLs) that Microsoft Store apps use.";
+            return Locale.settingsDefenderDisableSmartScreenStoreInfo;
         }
 
         public override bool CheckSetting()

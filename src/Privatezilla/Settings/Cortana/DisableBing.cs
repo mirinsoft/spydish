@@ -1,21 +1,22 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Cortana
 {
     internal class DisableBing : SettingBase
     {
         private const string BingKey = @"HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Windows Search";
-        private const string Bing2004Key = @"HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer"; //Disable Websearch on W1indows 10, version >=2004
+        private const string Bing2004Key = @"HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer"; // Disable Websearch on Windows 10, version >=2004
         private const int DesiredValue = 0;
 
         public override string ID()
         {
-            return "Disable Bing in Windows Search";
+            return Locale.settingsCortanaDisableBing;
         }
 
         public override string Info()
         {
-            return "Windows 10, by default, sends everything you search for in the Start Menu to their servers to give you results from Bing search.";
+            return Locale.settingsCortanaDisableBingInfo;
         }
 
         public override bool CheckSetting()

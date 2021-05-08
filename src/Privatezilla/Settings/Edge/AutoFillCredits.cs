@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Edge
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Edge
 
         public override string ID()
         {
-            return "Disable AutoFill for credit cards";
+            return Locale.settingsEdeAutoFillCredit;
         }
 
         public override string Info()
         {
-            return "Microsoft Edge's AutoFill feature lets users auto complete credit card information in web forms using previously stored information.";
+            return Locale.settingsEdeAutoFillCreditInfo;
         }
 
         public override bool CheckSetting()

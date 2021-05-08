@@ -1,0 +1,749 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BtnDoPS" xml:space="preserve">
+    <value>تطبيق المحددة</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="BtnSettingsAnalyze" xml:space="preserve">
+    <value>تحليل</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="BtnSettingsDo" xml:space="preserve">
+    <value>تطبيق المحدد</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="BtnSettingsUndo" xml:space="preserve">
+    <value>إرجاع المحدد</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="CheckRelease" xml:space="preserve">
+    <value>التحقق من وجود تحديثات</value>
+    <comment>Main menu</comment>
+  </data>
+  <data name="ChkCodePS" xml:space="preserve">
+    <value>عرض التعليمات البرمجية</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="columnSetting" xml:space="preserve">
+    <value>الإعدادات</value>
+    <comment>TreeView</comment>
+  </data>
+  <data name="columnState" xml:space="preserve">
+    <value>الدولة</value>
+    <comment>TreeView</comment>
+  </data>
+  <data name="CommunityPkg" xml:space="preserve">
+    <value>احضار مجموعة برامج المجموعة</value>
+    <comment>Main menu</comment>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>وقت قصير</value>
+    <comment>Main menu</comment>
+  </data>
+  <data name="helpApp" xml:space="preserve">
+    <value>معلومات حول الإعدادات: \r\nنقل المؤشر فوق الإعداد لعرض تفسير موجز
+                                           \r\nتحليل (زر): يحدد الإعدادات التي يتم تمكينها وتهيئتها على النظام الخاص بك أم لا. لا توجد تغييرات في النظام حتى الآن! 
+                                           \r\nتطبيق المحدد (الزر): سيؤدي هذا إلى تمكين جميع الإعدادات المحددة.
+                                           \r\nالعودة المحددة (الزر): سيؤدي هذا إلى استعادة إعدادات Windows 10 الافتراضية.
+                                           \r\nتكوين (الدولة): هذا يشير إلى أن خصوصيتك محمية.
+                                           \r\nلم يتم تكوين (الدولة): هذا يشير إلى أن إعدادات ويندوز 10 موجودة.</value>
+    <comment>Main menu</comment>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>المعلومات:</value>
+    <comment>Main menu</comment>
+  </data>
+  <data name="infoApp" xml:space="preserve">
+    <value>تطبيق إعدادات الخصوصية ل Windows 10 مفتوح المصدر.
+
+هذا لا يرتبط بأي حال من الأحوال بمايكروسوفت ومشروع مستقل تماماً.
+
+كل المعلومات والائتمانات حول هذا المشروع في
+\tgithub. om/builtbybel/privatezilla 
+
+يمكنك أيضا متابعتي في
+\tتويتر. om/builtbybel
+
+&lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk>
+أرصدة الترجمة إلى: ضع معلوماتك واسمك وبريدك الإلكتروني هنا!
+&lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk> &lt;unk>
+
+(C#) 2020، بناء البطاقة</value>
+    <comment>About the app
+Add translation credits here!</comment>
+  </data>
+  <data name="LblPS" xml:space="preserve">
+    <value>البرنامج النصي سكريبت</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="LblPSHeader" xml:space="preserve">
+    <value>تطبيق برنامج PowerShell Script</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="LblSettings" xml:space="preserve">
+    <value>الإعدادات</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="LblStatus" xml:space="preserve">
+    <value>اضغط Analyze للتحقق من المحددات التي تم توصيفها.</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="msgAppCompatibility" xml:space="preserve">
+    <value>يتم تشغيل Privatezilla على نظام أقدم من Windows 10. Privatezilla محدد بنظام Windows 10 ONLY.</value>
+  </data>
+  <data name="msgPSSave" xml:space="preserve">
+    <value>الرجاء التبديل إلى طريقة عرض الكود.</value>
+    <comment>Scripts (optional)</comment>
+  </data>
+  <data name="msgPSSelect" xml:space="preserve">
+    <value>يُرجى اختيار مزوّد.</value>
+    <comment>Scripts (optional)</comment>
+  </data>
+  <data name="msgPSSuccess" xml:space="preserve">
+    <value>تم القبول بنجاح</value>
+    <comment>Scripts (optional)</comment>
+  </data>
+  <data name="PSBack" xml:space="preserve">
+    <value>للخلف</value>
+    <comment>GUI</comment>
+  </data>
+  <data name="PSImport" xml:space="preserve">
+    <value>استورد برمجة</value>
+    <comment>Scripting menu</comment>
+  </data>
+  <data name="PSInfo" xml:space="preserve">
+    <value>ما الذي يفعله هذا النص ؟\r\n</value>
+    <comment>Scripting menu</comment>
+  </data>
+  <data name="PSMarketplace" xml:space="preserve">
+    <value>قم بزيارة App Marketplace</value>
+    <comment>Scripting menu</comment>
+  </data>
+  <data name="PSSaveAs" xml:space="preserve">
+    <value>حفظ النص المنسق الحالي على أنه برنامج نصي محدد مسبقا</value>
+    <comment>Scripting menu</comment>
+  </data>
+  <data name="releaseUnofficial" xml:space="preserve">
+    <value>تقوم باستخدام نسخة غير رسدية من Privatezilla.</value>
+  </data>
+  <data name="releaseUpdateAvailable" xml:space="preserve">
+    <value>هناك إصدار جديد #</value>
+  </data>
+  <data name="releaseUpdateAvailableURL" xml:space="preserve">
+    <value>\r\nهل ترغب في فتح صفحة @github/الاصدارات ؟</value>
+  </data>
+  <data name="releaseUpdateYourVersion" xml:space="preserve">
+    <value>\r\nأنت تستخدم النسخة #</value>
+  </data>
+  <data name="releaseUpToDate" xml:space="preserve">
+    <value>لا يوجد حالياً أي تحديثات متاحة.</value>
+  </data>
+  <data name="rootSettingsApps" xml:space="preserve">
+    <value>إذن التطبيقات</value>
+  </data>
+  <data name="rootSettingsBloatware" xml:space="preserve">
+    <value>تطبيق زائد</value>
+  </data>
+  <data name="rootSettingsBloatwareInfo" xml:space="preserve">
+    <value>دينفان ويندوز 10</value>
+  </data>
+  <data name="rootSettingsCortana" xml:space="preserve">
+    <value>كورتانا</value>
+  </data>
+  <data name="rootSettingsDefender" xml:space="preserve">
+    <value>المدافع عن Windows</value>
+  </data>
+  <data name="rootSettingsEdge" xml:space="preserve">
+    <value>متصفح مايكروسوفت إيدج</value>
+  </data>
+  <data name="rootSettingsGaming" xml:space="preserve">
+    <value>وضع اللعبة</value>
+  </data>
+  <data name="rootSettingsPrivacy" xml:space="preserve">
+    <value>الخصوصية</value>
+  </data>
+  <data name="rootSettingsSecurity" xml:space="preserve">
+    <value>الحماية</value>
+  </data>
+  <data name="rootSettingsUpdates" xml:space="preserve">
+    <value>تحديثات في</value>
+  </data>
+  <data name="settingsAppsAccountInfo" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق لمعلومات الحساب</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsAppNotifications" xml:space="preserve">
+    <value>تعطيل الإعلامات الخاصة بي</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsAppNotificationsInfo" xml:space="preserve">
+    <value>يقوم مركز التصرف بنظام Windows 10 بتجميع وعرض الاعلامات والتنبيهات من تطبيقات Windows التقليدية واشعارات النظام ، بالاضافة الى تلك التي تم تكوينها من التطبيقات الحديثة.\nيتم تجميع الاعلامات في مركز التصرفات بواسطة التطبيق والوقت.\nستقوم هذه المحددات بالغاء اتاحة كل الاعلامات من التطبيقات وغيرها من وحدات الإرسال في المحددات.</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsBackgroundApps" xml:space="preserve">
+    <value>تعطيل التطبيقات تعمل في الخلفية</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsBackgroundAppsInfo" xml:space="preserve">
+    <value>لا يتوافر لدى تطبيقات Windows 10 تصريح آخر لتشغيلها في الخلفية بحيث لا يمكنها تحديث البلاط الخاص بها ، واحضار بيانات جديدة ، واستلام الاعلامات.</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsCalendar" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق تقويم</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsCall" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق اتصل</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsCallHistory" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق سجل المكالمات</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsCamera" xml:space="preserve">
+    <value>تعطيل وصول التطبيق إلى الكاميرا</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsCellularData" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق البيانات الخلوية</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsCellularDataInfo" xml:space="preserve">
+    <value>بعض أجهزة Windows 10 لديها كارت SIM و / أو eSIM فيهم يسمح لك بالاتصال بشبكة بيانات خلوية (aka: LE أو Broadband) ، لذلك يمكنك الحصول على الاتصال المباشر في أماكن أكثر باستخدام إشارة خلوية.\nاذا كنت لا ترغب في السماح لأي تطبيقات باستخدام بيانات خلوية ، يمكنك الغاء اتاحتها بهذه المحددات.</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsContacts" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق جهات الاتصال</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsDiagnosticInformation" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق التشخيص</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsDocuments" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق documents</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsEmail" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق email</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsEyeGaze" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق تتبع العين</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsEyeGazeInfo" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق للتفاعل القائم على أساس-العين</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsFileSystem" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق نظام الملفات</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsFileSystemInfo" xml:space="preserve">
+    <value>ستقوم هذه المحددات بالغاء اتاحة امكانية توصل التطبيق لنظام الملفات. بعض التطبيقات قد تكون مقيدة في وظائفها أو قد لا تعمل على الإطلاق.</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsMessaging" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق email</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsMicrophone" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق email</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsMotion" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق email</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsNotification" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق email</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsOtherDevices" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق التشخيص</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsPictures" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق documents</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsRadios" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق email</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsTasks" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق email</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsTrackingApps" xml:space="preserve">
+    <value>الغاء اتاحة تتبع بدء التطبيق</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsTrackingAppsInfo" xml:space="preserve">
+    <value>وهذا يسمح لك بالتوصل بسرعة الى الكشف الخاص بك من التطبيقات الأكثر استخداما في كل من قائمة البدء وعند البحث في الجهاز الخاص بك. "</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsAppsVideos" xml:space="preserve">
+    <value>عدم اتاحة امكانية التوصل للتطبيق email</value>
+    <comment>Settings &gt; Apps</comment>
+  </data>
+  <data name="settingsBloatwareRemoveUWPAll" xml:space="preserve">
+    <value>ازالة كل التطبيقات المتضمنة</value>
+    <comment>Settings &gt; Bloatware</comment>
+  </data>
+  <data name="settingsBloatwareRemoveUWPAllInfo" xml:space="preserve">
+    <value>سيؤدي هذا إلى إزالة جميع التطبيقات المدمجة باستثناء متجر مايكروسوفت.</value>
+    <comment>Settings &gt; Bloatware</comment>
+  </data>
+  <data name="settingsBloatwareRemoveUWPDefaults" xml:space="preserve">
+    <value>إزالة جميع التطبيقات المدمجة باستثناء الافتراضية</value>
+    <comment>Settings &gt; Bloatware</comment>
+  </data>
+  <data name="settingsBloatwareRemoveUWPDefaultsInfo" xml:space="preserve">
+    <value>سيؤدي هذا إلى إزالة جميع التطبيقات المدمجة باستثناء ما يلي:\nمتجر مايكروسوفت\nتثبيت التطبيق\nتقويم\nالبريد\nحاسبة\nكاميرا\nSkype\nGroove Music\nالخرائط\nPaint 3D\nهاتفك\nصور\nملاحظات مثبتة\nالطقس\nXbox</value>
+    <comment>Settings &gt; Bloatware</comment>
+  </data>
+  <data name="settingsCortanaDisableBing" xml:space="preserve">
+    <value>تعطيل Bing في Windows للبحث</value>
+    <comment>Settings &gt; Cortana</comment>
+  </data>
+  <data name="settingsCortanaDisableBingInfo" xml:space="preserve">
+    <value>ويندوز 10، بشكل افتراضي، يرسل كل ما تبحث عنه في قائمة البدء إلى الخوادم لإعطائك نتائج من بحث بينغ.</value>
+    <comment>Settings &gt; Cortana</comment>
+  </data>
+  <data name="settingsCortanaDisableCortana" xml:space="preserve">
+    <value>تعطيل كورتانا</value>
+    <comment>Settings &gt; Cortana</comment>
+  </data>
+  <data name="settingsCortanaDisableCortanaInfo" xml:space="preserve">
+    <value>كورتانا هو المساعد الافتراضي لمايكروسوفت والذي يأتي مدمجا في ويندوز 10.\nهذا الإعداد سيعطل كورتانا بشكل دائم ويمنعها من تسجيل وتخزين عادات البحث الخاصة بك وسجل البحث.</value>
+    <comment>Settings &gt; Cortana</comment>
+  </data>
+  <data name="settingsCortanaUninstallCortana" xml:space="preserve">
+    <value>إلغاء تثبيت كورتانا</value>
+    <comment>Settings &gt; Cortana</comment>
+  </data>
+  <data name="settingsCortanaUninstallCortanaInfo" xml:space="preserve">
+    <value>سيؤدي هذا إلى إلغاء تثبيت تطبيق كورتانا الجديد على ويندوز 10، إصدار 2004.</value>
+    <comment>Settings &gt; Cortana</comment>
+  </data>
+  <data name="settingsDefenderDisableSmartScreenStore" xml:space="preserve">
+    <value>تعطيل SmartSscreen لتطبيقات المتجر</value>
+    <comment>Settings &gt; Defender</comment>
+  </data>
+  <data name="settingsDefenderDisableSmartScreenStoreInfo" xml:space="preserve">
+    <value>يساعد فلتر شاشة Windows المدافع الذكية على حماية جهازك عن طريق التحقق من محتوى الويب (URLs) الذي تستخدمه تطبيقات متجر Microsoft.</value>
+    <comment>Settings &gt; Defender</comment>
+  </data>
+  <data name="settingsEdeAutoFillCredit" xml:space="preserve">
+    <value>تعطيل التعبئة التلقائية لبطاقات الائتمان</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdeAutoFillCreditInfo" xml:space="preserve">
+    <value>تتيح ميزة Microsoft Edge's AutoFill للمستخدمين الإكمال التلقائي لمعلومات بطاقة الائتمان في نماذج الويب باستخدام المعلومات المخزنة سابقاً.</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdgeBackground" xml:space="preserve">
+    <value>المزامنة قيد التشغيل في الخلفية</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdgeBackgroundInfo" xml:space="preserve">
+    <value>على إصدار Chromium الجديد من Microsoft Edge ، يمكن للملحقات وغيرها من الخدمات أن تبقي المتصفح يعمل في الخلفية حتى بعد إغلاقه.</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdgeBlockEdgeRollout" xml:space="preserve">
+    <value>حظر تثبيت Microsoft Edge جديد</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdgeBlockEdgeRolloutInfo" xml:space="preserve">
+    <value>سيؤدي هذا إلى حظر تحديث نظام Windows 10 لتثبيت متصفح ويب Microsoft Edge الجديد القائم على Chromium، إذا لم يتم تثبيته مسبقاً على الجهاز.</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdgeDisableSync" xml:space="preserve">
+    <value>تعطيل مزامنة البيانات</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsEdgeDisableSyncInfo" xml:space="preserve">
+    <value>سيؤدي هذا الإعداد إلى تعطيل مزامنة البيانات باستخدام خدمات مزامنة Microsoft.</value>
+    <comment>Settings &gt; Edge</comment>
+  </data>
+  <data name="settingsGamingGameBar" xml:space="preserve">
+    <value>تعطيل ميزات شريط اللعبة</value>
+    <comment>Settings &gt; Gaming</comment>
+  </data>
+  <data name="settingsGamingGameBarInfo" xml:space="preserve">
+    <value>سيؤدي هذا الإعداد إلى تعطيل تسجيل وبث الويندوز.</value>
+    <comment>Settings &gt; Gaming</comment>
+  </data>
+  <data name="settingsGamingGameBarInfoInfo" xml:space="preserve">
+    <value>سيؤدي هذا إلى إيقاف التجارب المصممة خصيصا مع النصائح والتوصيات ذات الصلة باستخدام بيانات التشخيص الخاصة بك. العديد من الناس قد يتصلون بهذا القياس عن بعد، أو حتى التجسس.</value>
+    <comment>Settings &gt; Gaming</comment>
+  </data>
+  <data name="settingsPrivacyBlockSuggestedApps" xml:space="preserve">
+    <value>حظر التطبيقات المقترحة في البداية</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyBlockSuggestedAppsInfo" xml:space="preserve">
+    <value>سيؤدي هذا إلى حظر التطبيقات المقترحة التي تظهر من حين لآخر في قائمة البداية.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDiagnosticData" xml:space="preserve">
+    <value>تجنب استخدام بيانات الكتابة اليدوية</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDiagnosticDataInfo" xml:space="preserve">
+    <value>سيؤدي هذا إلى إيقاف التجارب المصممة خصيصا مع النصائح والتوصيات ذات الصلة باستخدام بيانات التشخيص الخاصة بك. العديد من الناس قد يتصلون بهذا القياس عن بعد، أو حتى التجسس.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableAds" xml:space="preserve">
+    <value>تعطيل معرف الإعلان للإعلانات ذات الصلة</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableAdsInfo" xml:space="preserve">
+    <value>ويندوز 10 يأتي مدمجا مع الإعلانات. يقوم مايكروسوفت بتعيين معرف فريد لتتبع نشاطك في متجر مايكروسوفت وعلى تطبيقات UWP لاستهدافك مع الإعلانات ذات الصلة.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableBiometrics" xml:space="preserve">
+    <value>تعطيل Windows Hello Biometrics</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableBiometricsInfo" xml:space="preserve">
+    <value>يتيح لك نظام التشغيل Windows Hello القياسات الحيوية تسجيل الدخول إلى أجهزتك، تطبيقاتك، خدمات الإنترنت والشبكات باستخدام وجهك أو بصمة السيرفر أو البصمة.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableCEIP" xml:space="preserve">
+    <value>تعطيل برنامج تجربة العملاء</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableCEIPInfo" xml:space="preserve">
+    <value>برنامج تحسين تجربة العملاء (CEIP) هو ميزة يتم تمكينها بشكل افتراضي على Windows 10، وتقوم بجمع وتقديم معلومات عن استخدام المعدات والبرمجيات إلى شركة مايكروسوفت سراً.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableCompTelemetry" xml:space="preserve">
+    <value>تعطيل الاتصال الهاتفي للتوافق</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableCompTelemetryInfo" xml:space="preserve">
+    <value>تقوم هذه العملية بشكل دوري بجمع مجموعة متنوعة من البيانات التقنية حول حاسوبك وأدائه وإرسالها إلى مايكروسوفت من أجل برنامج تحسين تجربة العملاء في ويندوز.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableFeedback" xml:space="preserve">
+    <value>لا ترسل أى تنبيهات</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableFeedbackInfo" xml:space="preserve">
+    <value>قد يظهر ويندوز 10 أيضا من وقت لآخر ويطلب ردود الفعل.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableHEIP" xml:space="preserve">
+    <value>تعطيل برنامج تجربة العملاء</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableHEIPInfo" xml:space="preserve">
+    <value>برنامج مساعدة تحسين الخبرة (HEIP) يجمع ويرسل إلى مايكروسوفت معلومات حول كيفية استخدام مساعدة ويندوز. هذا قد يكشف المشاكل التي تواجهك مع جهاز الكمبيوتر الخاص بك.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableLocation" xml:space="preserve">
+    <value>تعطيل البحث عن الموقع</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableLocationInfo" xml:space="preserve">
+    <value>أينما ذهبت، ويندوز 10 يعلم أنك هناك. عند تشغيل تتبع الموقع، يسمح للويندوز وتطبيقاته للكشف عن الموقع الحالي لجهاز الكمبيوتر أو الجهاز.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableMSExperiments" xml:space="preserve">
+    <value>تعطيل تجربة الإعدادات</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableMSExperimentsInfo" xml:space="preserve">
+    <value>في بعض الإصدارات من Windows 10، يمكن للمستخدمين السماح لمايكروسوفت بتجربة النظام لدراسة تفضيلات المستخدم أو سلوك الجهاز. هذا يسمح لمايكروسوفت "إجراء التجارب" مع الإعدادات على جهاز الكمبيوتر الخاص بك ويجب أن تكون معطلة مع هذا الإعداد.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTelemetry" xml:space="preserve">
+    <value>تعطيل التليمتري</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTelemetryInfo" xml:space="preserve">
+    <value>هذا سيمنع ويندوز من جمع معلومات الاستخدام ووضع بيانات تشخيصية إلى أساسي, وهو أدنى مستوى متاح لجميع إصدارات المستهلكين من Windows 10.\nسيتم أيضا تعطيل تشخيص الخدمات و خدمة dmwappushService.\nملاحظة: يجب تعيين البيانات التشخيصية إلى كامل للحصول على معاينة الإصدارات من برنامج Windows-Insider-Program!</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTimeline" xml:space="preserve">
+    <value>تعطيل ميزات شريط اللعبة</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTimelineInfo" xml:space="preserve">
+    <value>هذا يجمع سجل الأنشطة التي قمت بأدائها، بما في ذلك الملفات التي فتحتها وصفحات الويب التي شاهدتها في Edge.\nإذا كان الجدول الزمني ليس لك ، أو ببساطة لا تريد Windows 10 جمع الأنشطة والمعلومات الحساسة الخاصة بك يمكنك تعطيل الجدول الزمني بالكامل مع هذا الإعداد.\nملاحظة: مطلوب إعادة تشغيل النظام حتى تصبح التغييرات نافذة المفعول.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTips" xml:space="preserve">
+    <value>تعطيل تلميحات ويندوز</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTipsInfo" xml:space="preserve">
+    <value>لن ترى بعد الآن تلميحات Windows ، مثل Spotlight و Consumer الميزات ، و ملاحظات الإشعارات الخ.</value>
+  </data>
+  <data name="settingsPrivacyDisableTipsLockScreen" xml:space="preserve">
+    <value>تعطيل الإعلانات والروابط على شاشة القفل</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableTipsLockScreenInfo" xml:space="preserve">
+    <value>سيؤدي هذا الإعداد إلى تعيين خيارات خلفية شاشة القفل الخاصة بك إلى صورة وإيقاف النصائح والحقائق الممتعة والحيل من مايكروسوفت.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableWiFi" xml:space="preserve">
+    <value>تعطيل وأي فأي نقطة ساخنة</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyDisableWiFiInfo" xml:space="preserve">
+    <value>يجب على الأقل ايقاف PC من ارسال كلمة السرية Wi-Fi الخاصة بك.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyGetMoreOutOfWindows" xml:space="preserve">
+    <value>الغاء اتاحة الحصول على المزيد من برامج Windows</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyGetMoreOutOfWindowsInfo" xml:space="preserve">
+    <value>تقوم نسخ Windows 10 الحديثة بعرض شاشة nag "Get حتى أكثر من Windows" عندما تقوم ببدء الاتصال بحساب المستخدم الخاص بك. اذا وجدته مزعجا ، يمكنك الغاء اتاحته بهذه المحددات.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyHandwritingData" xml:space="preserve">
+    <value>تجنب استخدام بيانات الكتابة اليدوية</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyHandwritingDataInfo" xml:space="preserve">
+    <value>اذا كنت لا تريد أن يقوم Windows بمعرفة وتسجيل كل الكلمات المتفردة التي تقوم باستخدامها ، مثل الأسماء والمصطلحات الفنية فقط ، قم باتاحة هذه المحددات.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyInstalledApps" xml:space="preserve">
+    <value>تركيب آلي لتطبيقات apps</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyInstalledAppsInfo" xml:space="preserve">
+    <value>عندما تقوم ببدء الاتصال بملف مواصفات أو جهاز جديد لنظام Windows 10 لأول مرة ، فان الفرصة هي أن تلاحظ العديد من تطبيقات وتطبيقات الطرف الثالث المعروضة في قائمة البدء.\nستقوم هذه المحددات بمنع التركيب الآلي لبرامج Windows 10 المقترحة.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyInventoryCollector" xml:space="preserve">
+    <value>الغاء اتاحة أداة تجميع المخزون</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacyInventoryCollectorInfo" xml:space="preserve">
+    <value>تقوم أداة تجميع المخزون بجرد ملفات التطبيقات والأجهزة الموجودة على النظام وتقوم بارسال المعلومات الى Microsoft. يتم استخدام هذه المعلومات للمساعدة في تشخيص مشاكل التوافق.\nملحوظة: لا يكون لمحددات هذه المحددات أي تأثير اذا كان قد تم ايقاف تشغيل برنامج تحسين تجربة العميل. سيتم ايقاف أداة تجميع المخزون.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacySuggestedContent" xml:space="preserve">
+    <value>حظر المحتوى المقترح في تطبيق الإعدادات</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsPrivacySuggestedContentInfo" xml:space="preserve">
+    <value>لمساعدة مستخدمي Windows 10 الجدد على تعلم ميزات جديدة من Windows 10، بدأت شركة مايكروسوفت في عرض المحتوى المقترح عن طريق لافتة ضخمة في تطبيقات إعداد Windows 10.</value>
+    <comment>Settings &gt; Privacy</comment>
+  </data>
+  <data name="settingsSecurityDisablePassword" xml:space="preserve">
+    <value>تعطيل زر الكشف عن كلمة المرور</value>
+    <comment>Settings &gt; Security</comment>
+  </data>
+  <data name="settingsSecurityDisablePasswordInfo" xml:space="preserve">
+    <value>يمكن استخدام زر الكشف عن كلمة المرور لعرض كلمة المرور المدخلة ويجب أن يتم تعطيلها مع هذا الإعداد.</value>
+    <comment>Settings &gt; Security</comment>
+  </data>
+  <data name="settingsSecurityWindowsDRM" xml:space="preserve">
+    <value>تعطيل DRM في Windows Media Player</value>
+    <comment>Settings &gt; Security</comment>
+  </data>
+  <data name="settingsSecurityWindowsDRMInfo" xml:space="preserve">
+    <value>اذا لم تتمكن ادارة الحقوق الرقمية لوسط Windows من الاتصال بالانترنت (أو الانترانت) للحصول على الترخيص وتعديلات السرية ، يمكنك منعها باستخدام هذه المحددات.</value>
+    <comment>Settings &gt; Security</comment>
+  </data>
+  <data name="settingsUpdatesBlockMajorUpdates" xml:space="preserve">
+    <value>حظر تحديثات ويندوز الرئيسية</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="settingsUpdatesBlockMajorUpdatesInfo" xml:space="preserve">
+    <value>هذا الإعداد المسمى "TargetReleaseVersionInfo" يمنع تحديث ميزات Windows 10 من أن يتم تثبيته حتى يصل الإصدار المحدد إلى نهاية الدعم.\nسيحدد إصدار ويندوز 10 المستخدم حاليا كإصدار مستهدف من Windows 10 الذي تريد أن يكون النظام قيد التشغيل (يدعم فقط الإصدارات المحترفة والمؤسسة).</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="settingsUpdatesDisableSafeguards" xml:space="preserve">
+    <value>تعطيل الضمانات لتحديثات الميزات</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="settingsUpdatesDisableSafeguardsInfo" xml:space="preserve">
+    <value>تستخدم مايكروسوفت بيانات تشخيصية لتحديد ما إذا كانت الأجهزة التي تستخدم تحديث ويندوز جاهزة لتحديث الميزات من أجل ضمان تجربة سلسة.\nعندما تحدد مايكروسوفت جهازًا غير جاهز للتحديث بسبب مشكلة معروفة. يتم إنشاء نظام وقائي (يعرف أيضا باسم نظام الاحتفاظ بالتواؤم أو التحديث) لتأخير تحديث الجهاز وحماية تجربة المستخدم النهائي.\nسيؤدي هذا الإعداد إلى عدم التقيد بالحماية التي تسمح لك بتجاوز أي كتل لترقية الميزات.</value>
+  </data>
+  <data name="settingsUpdatesDisableUpdates" xml:space="preserve">
+    <value>تعطيل تحديثات ويندوز الإجبارية</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="settingsUpdatesDisableUpdatesInfo" xml:space="preserve">
+    <value>سيتم إخطار هذا عندما تكون التحديثات متاحة، وتقرر متى يتم تثبيتها.</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="settingsUpdatesUpdateSharing" xml:space="preserve">
+    <value>تعطيل مشاركة تحديثات ويندوز</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="settingsUpdatesUpdateSharingInfo" xml:space="preserve">
+    <value>ويندوز 10 يتيح لك تنزيل التحديثات من عدة مصادر لتسريع عملية تحديث نظام التشغيل. سيؤدي هذا إلى تعطيل مشاركة ملفاتك من قبل الآخرين وعرض عنوان IP الخاص بك على أجهزة كمبيوتر عشوائية.</value>
+    <comment>Settings &gt; Updates</comment>
+  </data>
+  <data name="statusDoPSApply" xml:space="preserve">
+    <value>تطبيق</value>
+  </data>
+  <data name="statusDoPSProcessing" xml:space="preserve">
+    <value>قيد المعالجة</value>
+  </data>
+  <data name="statusDoWait" xml:space="preserve">
+    <value>الرجاء الأنتظار ...</value>
+  </data>
+  <data name="statusFailedApply" xml:space="preserve">
+    <value>لم يتم تطبيقه</value>
+  </data>
+  <data name="statusFailedConfigure" xml:space="preserve">
+    <value>لم يتم التكوين</value>
+  </data>
+  <data name="statusFinishAnalyze" xml:space="preserve">
+    <value>اكتمل التحليل.</value>
+  </data>
+  <data name="statusFinishApply" xml:space="preserve">
+    <value>اكتمل التحليل.</value>
+  </data>
+  <data name="statusFinishUndo" xml:space="preserve">
+    <value>اكتملت عملية العودة.</value>
+  </data>
+  <data name="statusSuccessApply" xml:space="preserve">
+    <value>تم التطبيق</value>
+  </data>
+  <data name="statusSuccessConfigure" xml:space="preserve">
+    <value>تكوين</value>
+  </data>
+  <data name="statusUndoSettings" xml:space="preserve">
+    <value>هل تريد حقاً إعادة جميع الإعدادات المحددة إلى حالة ويندوز 10 الافتراضية؟</value>
+  </data>
+  <data name="TxtPSInfo" xml:space="preserve">
+    <value>مرحبا بكم في محرر السكريبت, الذي يسمح لك بتطبيق ملفات سكريبت الطرف الثالث والإعدادات المخصصة في شكل سكريبتات و قوالب PowerShell (البرامج النصية المجمعة).
+
+حدد برنامج نصي لعرضه وصف.
+
+للتحقق من التعليمات البرمجية لأوجه الضعف، انقر فوق "عرض التعليمة البرمجية".
+
+للحصول على عناصر جديدة (قوالب، نصوص، إلخ) قم بزيارة السوق في القائمة العلوية اليمنى.</value>
+    <comment>GUI </comment>
+  </data>
+</root>

@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Apps
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Apps
 
         public override string ID()
         {
-            return "Disable app notifications";
+            return Locale.settingsAppsAppNotifications;
         }
 
         public override string Info()
         {
-            return "The Action Center in Windows 10 collects and shows notifications and alerts from traditional Windows applications and system notifications, alongside those generated from modern apps.\nNotifications are then grouped in the Action Center by app and time.\nThis setting will disable all notifications from apps and other senders in settings.";
+            return Locale.settingsAppsAppNotificationsInfo.Replace("\\n", "\n");
         }
 
         public override bool CheckSetting()

@@ -2,11 +2,9 @@
 # Rules are provided by crazy-max/WindowsSpyBlocker
 # https://github.com/crazy-max/WindowsSpyBlocker/blob/master/data/firewall/spy.txt
 # Last updated on 23 Jan, 2020
-# Template was adapted for SharpApp https://github.com/mirinsoft/sharpapp
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-### Block Microsoft Telemetry IPs via Windows Firewall ###
-### This script will not block Windows updates and third party applications from Microsoft like OneDrive, Skype, Live etc. ###
-### To do so, you can get the "hardcoreFirewallTemplate" from the Marketplace ###
+### This script blocks Microsoft telemetry IPs via Windows Firewall ###
+### This script will not block Windows updates and third party applications from Microsoft like OneDrive, Skype, Live etc.
 Write-Output "Adding telemetry IPs to firewall"
 $ips = @(
     "13.68.31.193"
@@ -198,6 +196,6 @@ $ips = @(
     "191.239.54.52"
     "207.68.166.254"
 )
-Remove-NetFirewallRule -DisplayName "Spydish Microsoft Telemetry Block" -ErrorAction SilentlyContinue
-New-NetFirewallRule -DisplayName "Spydish Microsoft Telemetry Block" -Direction Outbound `
+Remove-NetFirewallRule -DisplayName "Privatezilla Microsoft Telemetry Block" -ErrorAction SilentlyContinue
+New-NetFirewallRule -DisplayName "Privatezilla Microsoft Telemetry Block" -Direction Outbound `
     -Action Block -RemoteAddress ([string[]]$ips)

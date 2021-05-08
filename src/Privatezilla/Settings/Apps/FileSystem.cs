@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Apps
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Apps
 
         public override string ID()
         {
-            return "Disable app access to file system";
+            return Locale.settingsAppsFileSystem;
         }
 
         public override string Info()
         {
-            return "This setting will disable app access to file system. Some apps may be restricted in their function or may no longer work at all.";
+            return Locale.settingsAppsFileSystemInfo;
         }
 
         public override bool CheckSetting()

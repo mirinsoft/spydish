@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Privacy
 {
@@ -10,12 +11,12 @@ namespace Privatezilla.Setting.Privacy
 
         public override string ID()
         {
-            return "Disable Inventory Collector";
+            return Locale.settingsPrivacyInventoryCollector;
         }
 
         public override string Info()
         {
-            return "The Inventory Collector inventories applications files devices and drivers on the system and sends the information to Microsoft. This information is used to help diagnose compatibility problems.\nNote: This setting setting has no effect if the Customer Experience Improvement Program is turned off. The Inventory Collector will be off.";
+            return Locale.settingsPrivacyInventoryCollectorInfo.Replace("\\n", "\n");
         }
 
         public override bool CheckSetting()

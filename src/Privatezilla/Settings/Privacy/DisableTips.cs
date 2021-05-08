@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Privacy
 {
@@ -12,12 +13,12 @@ namespace Privatezilla.Setting.Privacy
 
         public override string ID()
         {
-            return "Disable Windows Tips";
+            return Locale.settingsPrivacyDisableTips;
         }
 
         public override string Info()
         {
-            return "You will no longer see Windows Tips, e.g. Spotlight and Consumer Features, Feedback Notifications etc.";
+            return Locale.settingsPrivacyDisableTipsInfo;
         }
 
         public override bool CheckSetting()

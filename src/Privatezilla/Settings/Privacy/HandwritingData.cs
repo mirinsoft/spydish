@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Privacy
 {
@@ -13,12 +14,12 @@ namespace Privatezilla.Setting.Privacy
 
         public override string ID()
         {
-            return "Prevent using handwriting data";
+            return Locale.settingsPrivacyHandwritingData;
         }
 
         public override string Info()
         {
-            return "If you don’t want Windows to know and record all unique words that you use, like names and professional jargon, just enable this setting.";
+            return Locale.settingsPrivacyHandwritingDataInfo;
         }
 
         public override bool CheckSetting()

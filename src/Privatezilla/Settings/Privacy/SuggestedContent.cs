@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Privacy
 {
@@ -11,12 +12,12 @@ namespace Privatezilla.Setting.Privacy
 
         public override string ID()
         {
-            return "Block suggested content in Settings app";
+            return Locale.settingsPrivacySuggestedContent;
         }
 
         public override string Info()
         {
-            return "To help new Windows 10 users to learn new features of Windows 10, Microsoft has started showing suggested content via a huge banner in Windows 10 Setting Apps. ";
+            return Locale.settingsPrivacySuggestedContentInfo;
         }
 
         public override bool CheckSetting()

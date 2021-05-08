@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Management.Automation;
 using System.IO;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Bloatware
 {
@@ -8,12 +9,12 @@ namespace Privatezilla.Setting.Bloatware
     {
         public override string ID()
         {
-            return "Remove all built-in apps except defaults";
+            return Locale.settingsBloatwareRemoveUWPDefaults;
         }
 
         public override string Info()
         {
-            return "This will remove all built-in apps except the following:\nMicrosoft Store\nApp Installer\nCalendar\nMail\nCalculator\nCamera\nSkype\nGroove Music\nMaps\nPaint 3D\nYour Phone\nPhotos\nSticky Notes\nWeather\nXbox";
+            return Locale.settingsBloatwareRemoveUWPDefaultsInfo.Replace("\\n", "\n");
         }
 
         public override bool CheckSetting()

@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Gaming
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Gaming
 
         public override string ID()
         {
-            return "Disable Game Bar features";
+            return Locale.settingsGamingGameBar;
         }
 
         public override string Info()
         {
-            return "This setting will disable the Windows Game Recording and Broadcasting.";
+            return Locale.settingsGamingGameBarInfo;
         }
 
         public override bool CheckSetting()

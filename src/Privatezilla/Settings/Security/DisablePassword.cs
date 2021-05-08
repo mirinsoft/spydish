@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using Privatezilla.Locales;
 
 namespace Privatezilla.Setting.Security
 {
@@ -9,12 +10,12 @@ namespace Privatezilla.Setting.Security
 
         public override string ID()
         {
-            return "Disable password reveal button";
+            return Locale.settingsSecurityDisablePassword;
         }
 
         public override string Info()
         {
-            return "The password reveal button can be used to display an entered password and should be disabled with this setting.";
+            return Locale.settingsSecurityDisablePasswordInfo;
         }
 
         public override bool CheckSetting()

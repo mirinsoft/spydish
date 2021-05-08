@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Privatezilla", "Privatezilla\Privatezilla.csproj", "{1CF5392E-0522-49D4-8343-B732BE762086}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CF5392E-0522-49D4-8343-B732BE762086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF5392E-0522-49D4-8343-B732BE762086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF5392E-0522-49D4-8343-B732BE762086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF5392E-0522-49D4-8343-B732BE762086}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E8CB191-75D5-4C79-A0FE-23D7D018C316}
+	EndGlobalSection
+EndGlobal
